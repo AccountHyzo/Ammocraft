@@ -17,4 +17,9 @@ module Base
 		mesh = ammo/Bullet,
 	}
 
+	model Ammobox
+	{
+		mesh = ammo/Ammobox,
+	}
+
 }

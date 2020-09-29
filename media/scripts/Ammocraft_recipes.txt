@@ -8,8 +8,9 @@ module Ammocraft
  	/************************Ammo Recipes************************/
 	recipe Make 9mm Bullet
 	{
-		9mmcasing,
-		9mmbullet,
+		Bullets9mm_casing,
+		Bullets9mm_tip,
+		Primer,
 		GunPowder=2,
 		keep Reloadingpress,
 
@@ -24,9 +25,10 @@ module Ammocraft
 
 	recipe Make .45 Bullet
 	{
-		45casing,
-		45bullet,
-		GunPowder=2,
+		Bullets45_casing,
+		Bullets45_tip,
+		Primer,
+		GunPowder=3,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -40,9 +42,10 @@ module Ammocraft
 
 	recipe Make .44 Bullet
 	{
-		44casing,
-		44bullet,
-		GunPowder=2,
+		Bullets44_casing,
+		Bullets44_tip,
+		Primer,
+		GunPowder=5,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -56,9 +59,10 @@ module Ammocraft
 
 	recipe Make .38 Bullet
 	{
-		38casing,
-		38bullet,
-		GunPowder=2,
+		Bullets38_casing,
+		Bullets38_tip,
+		Primer,
+		GunPowder=3,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -72,9 +76,10 @@ module Ammocraft
 
 	recipe Make .308 Bullet
 	{
-		308casing,
-		308bullet,
-		GunPowder=2,
+		308Bullets_casing,
+		308Bullets_tip,
+		Primer,
+		GunPowder=8,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -88,9 +93,10 @@ module Ammocraft
 
 	recipe Make .223 Bullet
 	{
-		223casing,
-		223bullet,
-		GunPowder=2,
+		223Bullets_casing,
+		223Bullets_tip,
+		Primer,
+		GunPowder=8,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -104,9 +110,10 @@ module Ammocraft
 
 	recipe Make 5.56 Bullet
 	{
-		556casing,
-		556bullet,
-		GunPowder=2,
+		556Bullets_casing,
+		556Bullets_tip,
+		Primer,
+		GunPowder=8,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -120,9 +127,9 @@ module Ammocraft
 
 	recipe Make Shotgun Shell
 	{
-		Shotguncasing,
-		Shotgunbullet,
-		GunPowder=2,
+		ShotgunShells_casing,
+		ShotgunShells_tip,
+		GunPowder=8,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -135,9 +142,9 @@ module Ammocraft
 
 	recipe Make Shotgun Slug
 	{
-		Shotguncasing,
-		Shotgunbullet,
-		GunPowder=2,
+		ShotgunShells_casing,
+		ShotgunShells_tip,
+		GunPowder=8,
 		keep Reloadingpress,
 
 		CanBeDoneFromFloor:true,
@@ -148,12 +155,82 @@ module Ammocraft
 		NeedToBeLearn:true,
 	}
 
+	recipe Open 9mm Bullet Casing  Box
+	{
+		Bullets9mm_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets9mm_casing=50,
+		Time:230.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open .45 Bullet Casing  Box
+	{
+		Bullets45_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets45_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open .38 Bullet Casing  Box
+	{
+		Bullets38_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets38_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open .44 Bullet Casing  Box
+	{
+		Bullets44_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets44_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open .308 Bullet Casing  Box
+	{
+		308Bullets_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:308Bullets_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open .223 Bullet Casing  Box
+	{
+		223Bullets_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:223Bullets_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
+	recipe Open 5.56 Bullet Casing  Box
+	{
+		556Bullets_casingbox,
+
+		CanBeDoneFromFloor:true,
+		Result:556Bullets_casing=50,
+		Time:15.0,
+		Prop2:Ammobox,
+	}
+
 	recipe Dismantle Ammo
 	{
 		Bullets9mm/ShotgunShells/223Bullets/308Bullets/Bullets44/Bullets38/556Bullets/Bullets45,
 		keep Pliers,
 
-		Result:GunPowder,
+		Result:GunPowder=2,
 		Time:30.0,
 		AnimNode:Disassemble,
 		Prop1:Pliers,

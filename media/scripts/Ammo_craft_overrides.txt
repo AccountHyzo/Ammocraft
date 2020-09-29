@@ -144,28 +144,6 @@ module Base
         MetalValue = 24,
     }
 
-		item ShotgunSlugs
-		{
-			Count	=	6,
-			Weight	=	0.04,
-			AlwaysWelcomeGift	=	TRUE,
-			Type	=	Normal,
-			DisplayCategory = Ammo,
-			DisplayName	=	Shotgun Slugs,
-			Icon	=	ShotgunAmmo,
-			MetalValue = 1,
-		}
-
-	    item ShotgunSlugsBox
-	    {
-	        Weight	=	1.0,
-	        Type	=	Normal,
-	        DisplayName	=	Box of Shotgun Slugs,
-	        DisplayCategory = Ammo,
-	        Icon	=	ShotgunAmmoBox,
-	        MetalValue = 24,
-	    }
-
 	item 223Bullets
     {
         Count	=	5,
