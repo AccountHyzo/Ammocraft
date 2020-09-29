@@ -1,0 +1,290 @@
+module Ammocraft
+{
+	imports
+	{
+		Base,
+	}
+
+	/************************Tools************************/
+	item Reloadingpress
+	{
+		MaxRange	=	0.5,
+		WeaponSprite	=	Reloadingpress,
+		MinAngle	=	0.67,
+		Type	=	Weapon,
+		MinimumSwingTime	=	4,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	15,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	9,
+		MaxHitCount	=	2,
+		DoorDamage	=	10,
+		SwingAnim	=	Bat,
+		DisplayName	=	Reloading Press,
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Reloadingpress,
+		BreakSound  =   BreakMetalItem,
+		TreeDamage  =   0,
+		CriticalChance	=	20,
+		CritDmgMultiplier = 2,
+		MinDamage	=	0.5,
+		MaxDamage	=	1,
+		BaseSpeed = 1,
+	    	WeaponLength = 0.23,
+	    	AttachmentType = Reloadingpress,
+	}
+	item Pliers
+	{
+		MaxRange	=	1.1,
+		WeaponSprite	=	Pliers,
+		MinAngle	=	0.67,
+		Type	=	Weapon,
+		MinimumSwingTime	=	4,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	15,
+		Weight	=	1,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		SubCategory	=	Swinging,
+		ConditionMax	=	9,
+		MaxHitCount	=	2,
+		DoorDamage	=	10,
+		SwingAnim	=	Bat,
+		DisplayName	=	Pliers,
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+		Icon	=	Pliers,
+		BreakSound  =   BreakMetalItem,
+		TreeDamage  =   0,
+		CriticalChance	=	20,
+		CritDmgMultiplier = 2,
+		MinDamage	=	0.5,
+		MaxDamage	=	1,
+		BaseSpeed = 1,
+	    	WeaponLength = 0.23,
+	    	AttachmentType = Hammer,
+	}
+ 	/************************Ammo************************/
+	item 9mmcasing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	9mm Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item 9mmbullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	9mm Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item 45casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	45 Bullet Casing,
+		Icon	=	45_Casing,
+        	MetalValue = 10,
+	}
+	item 45bullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	45 Bullet,
+		Icon	=	45_Bullet,
+        	MetalValue = 5,
+	}
+	item 44casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	44 Bullet Casing,
+		Icon	=	45_Casing,
+        	MetalValue = 10,
+	}
+	item 44bullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	44 Bullet,
+		Icon	=	45_Bullet,
+        	MetalValue = 5,
+	}
+	item 38casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	38 Bullet Casing,
+		Icon	=	38_Casing,
+        	MetalValue = 10,
+	}
+	item 38bullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	38 Bullet,
+		Icon	=	38_Bullet,
+        	MetalValue = 5,
+	}
+	item 308casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	308 Bullet Casing,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item 308bullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	308 Bullet,
+		Icon	=	38_Bullet,
+					MetalValue = 5,
+	}
+	item 223casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	223 Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item 223bullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	223 Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item 556casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	556 Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item 556bullet
+	{
+	  CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	556 Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item Shotguncasing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	Empty Shotgunshell,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item Shotgunbullet
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Shotgun buckshot,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	/************************Literature************************/
+	item GunnutMonthly1
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly March '92 'Handgun Edition',
+		Icon	=	GunnutMonthly1,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Dismantle Ammo;Make 9mm Bullet;Make .45 Bullet;Make .44 Bullet,
+		ReplaceOnUse    =   GunnutMonthly1,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly2
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly May '92 'Shotgun Edition',
+		Icon	=	GunnutMonthly2,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Dismantle Ammo;Make Shotgun Shell;Make Shotgun Slug,
+		ReplaceOnUse    =   GunnutMonthly2,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly3
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly June '92 'Rifle Edition',
+		Icon	=	GunnutMonthly3,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Dismantle Ammo;Make .223 Bullet;Make .308 Bullet,
+		ReplaceOnUse    =   GunnutMonthly3,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly4
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly July '92 'Revolver Edition',
+		Icon	=	GunnutMonthly4,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Dismantle Ammo;Make .44 Bullet;Make .38 Bullet,
+		ReplaceOnUse    =   GunnutMonthly4,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly5
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly August '92 'Assault Rifle Edition',
+		Icon	=	GunnutMonthly5,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Dismantle Ammo;Make 5.56 Bullet,
+		ReplaceOnUse    =   GunnutMonthly5,
+		StaticModel = Magazine,
+	}
+
+}

@@ -1,0 +1,165 @@
+module Ammocraft
+{
+	imports
+	{
+		Base,
+	}
+
+ 	/************************Ammo Recipes************************/
+	recipe Make 9mm Bullet
+	{
+		9mmcasing,
+		9mmbullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets9mm,
+		Time:230.0,
+    Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make .45 Bullet
+	{
+		45casing,
+		45bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets45,
+		Time:230.0,
+    Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make .44 Bullet
+	{
+		44casing,
+		44bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets44,
+		Time:230.0,
+    Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make .38 Bullet
+	{
+		38casing,
+		38bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:Bullets38,
+		Time:230.0,
+		Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make .308 Bullet
+	{
+		308casing,
+		308bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:308Bullets,
+		Time:230.0,
+		Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make .223 Bullet
+	{
+		223casing,
+		223bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:223Bullets,
+		Time:230.0,
+		Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make 5.56 Bullet
+	{
+		556casing,
+		556bullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:556Bullets,
+		Time:230.0,
+		Category:Welding,
+		Prop1:Bullet,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make Shotgun Shell
+	{
+		Shotguncasing,
+		Shotgunbullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:ShotgunShells,
+		Time:230.0,
+		Category:Welding,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Make Shotgun Slug
+	{
+		Shotguncasing,
+		Shotgunbullet,
+		GunPowder=2,
+		keep Reloadingpress,
+
+		CanBeDoneFromFloor:true,
+		Result:ShotgunSlugs,
+		Time:230.0,
+		Category:Welding,
+		Prop2:Reloadingpress,
+		NeedToBeLearn:true,
+	}
+
+	recipe Dismantle Ammo
+	{
+		Bullets9mm/ShotgunShells/223Bullets/308Bullets/Bullets44/Bullets38/556Bullets/Bullets45,
+		keep Pliers,
+
+		Result:GunPowder,
+		Time:30.0,
+		AnimNode:Disassemble,
+		Prop1:Pliers,
+		Prop2:Bullet,
+		NeedToBeLearn:true,
+		OnCreate:recipe_Dismantle_Ammo,
+	}
+
+}

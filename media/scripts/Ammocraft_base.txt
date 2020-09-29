@@ -1,0 +1,20 @@
+module Base
+{
+
+	/************************Models************************/
+	model Reloadingpress
+	{
+		mesh = tools/Reloadingpress,
+	}
+
+	model Pliers
+	{
+		mesh = tools/Pliers,
+	}
+
+	model Bullet
+	{
+		mesh = ammo/Bullet,
+	}
+
+}
