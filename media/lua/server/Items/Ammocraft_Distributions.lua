@@ -5,7 +5,7 @@ local distributionTable = {
     burgerkitchen =
     {
 		counter ={
-			rolls = 3,
+
 			items = {
       "Ammocraft.Pliers", 4,
       "Ammocraft.GunnutMonthly1", 5,
@@ -16,10 +16,10 @@ local distributionTable = {
 			},
 
 			junk = {
-				rolls = 4,
+
 				items = {
         "Ammocraft.Pliers", 0.5,
-        "Ammocraft.Shotguncasing", 0.2,
+        "Ammocraft.ShotgunShells_casing", 0.2,
         "Ammocraft.Bullets9mm_casing", 0.75,
         "Ammocraft.Bullets45_casing", 0.5,
         "Ammocraft.Bullets44_casing", 0.25,
@@ -33,7 +33,7 @@ local distributionTable = {
     {
         counter =
         {
-            rolls = 5,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -47,7 +47,7 @@ local distributionTable = {
     medicalstorage = {
         counter =
         {
-            rolls = 5,
+
             items = {
                 "Ammocraft.Pliers", 0.5,
             }
@@ -55,7 +55,7 @@ local distributionTable = {
 
         metal_shelves =
         {
-            rolls = 5,
+
             items = {
                 "Ammocraft.Pliers", 0.5,
                 "Ammocraft.GunnutMonthly1", 5,
@@ -70,10 +70,10 @@ local distributionTable = {
     zippeestore =
     {
         counter = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 0.5,
+            "Ammocraft.ShotgunShells_casingbox", 0.5,
             "Ammocraft.Bullets9mm_casingbox", 1,
             "Ammocraft.Bullets45_casingbox", 0.25,
             "Ammocraft.Bullets44_casingbox", 0.25,
@@ -89,7 +89,7 @@ local distributionTable = {
         },
 
         shelvesmag ={
-            rolls = 4,
+
             items = {
             "Ammocraft.GunnutMonthly1", 2,
             "Ammocraft.GunnutMonthly2", 1,
@@ -100,7 +100,7 @@ local distributionTable = {
         },
 
         crate = {
-            rolls = 4,
+
             items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 2,
@@ -115,7 +115,7 @@ local distributionTable = {
     grocerystorage =
     {
         bin = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 2,
@@ -132,57 +132,71 @@ local distributionTable = {
     {
 
         counter ={
-            rolls = 4,
+
             items = {
-            "Ammocraft.Pliers", 4,
-            "Ammocraft.GunnutMonthly1", 2,
-            "Ammocraft.GunnutMonthly2", 1,
-            "Ammocraft.GunnutMonthly3", 0.5,
-            "Ammocraft.GunnutMonthly4", 0.2,
-            "Ammocraft.GunnutMonthly5", 0.05,
+            "Ammocraft.GunnutMonthly1", 5,
+            "Ammocraft.GunnutMonthly2", 2,
+            "Ammocraft.GunnutMonthly3", 2,
+            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly5", 0.5,
             },
             junk = {
-            "Ammocraft.Pliers", 0.5,
-            "Ammocraft.GunnutMonthly1", 6,
-            "Ammocraft.GunnutMonthly2", 1,
-            "Ammocraft.GunnutMonthly3", 0.1,
-            "Ammocraft.GunnutMonthly4", 0.05,
-            "Ammocraft.GunnutMonthly5", 0.05,
+
+                items = {
+                "Ammocraft.GunnutMonthly2", 2,
+                "Ammocraft.GunnutMonthly3", 2,
                 }
             }
         },
 
-        shelvesmag ={
-            rolls = 4,
+        smallbox= {
+
             items = {
-            "Ammocraft.GunnutMonthly1", 6,
-            "Ammocraft.GunnutMonthly2", 1,
-            "Ammocraft.GunnutMonthly3", 0.1,
-            "Ammocraft.GunnutMonthly4", 0.05,
-            "Ammocraft.GunnutMonthly5", 0.05,
+
             }
         },
+
+        shelvesmag ={
+
+            items = {
+            "Ammocraft.GunnutMonthly1", 5,
+            "Ammocraft.GunnutMonthly2", 2,
+            "Ammocraft.GunnutMonthly3", 2,
+            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly5", 0.5,
+            }
+        },
+
+        crate = {
+
+            items = {
+            "Ammocraft.GunnutMonthly2", 2,
+            "Ammocraft.GunnutMonthly3", 2,
+            }
+        }
     },
 
     gigamart =
     {
 
         counter ={
-            rolls = 4,
+
             items = {
-            "Ammocraft.Pliers", 4,
+            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly5", 0.5,
             },
             junk = {
-            "Ammocraft.GunnutMonthly1", 0.5,
-            "Ammocraft.GunnutMonthly2", 0.2,
-            "Ammocraft.GunnutMonthly3", 0.2,
-            "Ammocraft.GunnutMonthly4", 0.2,
-            "Ammocraft.GunnutMonthly5", 0.05,
+
+                items = {
+                "Ammocraft.GunnutMonthly3", 2,
+                "Ammocraft.GunnutMonthly4", 2,
+                "Ammocraft.GunnutMonthly5", 0.5,
+                }
             }
         },
 
         shelvesmag ={
-            rolls = 4,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -191,12 +205,19 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
+
+        crate = {
+
+            items = {
+            "Ammocraft.GunnutMonthly1", 5,
+            }
+        }
     },
 
     fossoil =
     {
         counter ={
-            rolls = 4,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -207,7 +228,7 @@ local distributionTable = {
         },
 
         shelvesmag ={
-            rolls = 4,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -218,7 +239,7 @@ local distributionTable = {
         },
 
         crate = {
-            rolls = 4,
+
             items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 5,
@@ -234,7 +255,7 @@ local distributionTable = {
 	{
 
         plankstash ={
-            rolls = 7,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 10,
@@ -245,7 +266,7 @@ local distributionTable = {
         },
 
 		sidetable = {
-			rolls = 3,
+
 			items = {
       "Ammocraft.GunnutMonthly1", 5,
       "Ammocraft.GunnutMonthly2", 2,
@@ -255,7 +276,7 @@ local distributionTable = {
 			},
 
 			junk = {
-				rolls = 3,
+
 				items = {
         "Ammocraft.GunnutMonthly1", 5,
         "Ammocraft.GunnutMonthly2", 2,
@@ -270,7 +291,7 @@ local distributionTable = {
     loggingfactory =
     {
         crate = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 5,
@@ -281,8 +302,7 @@ local distributionTable = {
     all =
     {
         plankstash ={
-            procedural = true,
-            procList = {
+            items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -293,17 +313,17 @@ local distributionTable = {
         },
 
         dresser = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -313,7 +333,7 @@ local distributionTable = {
         },
 
         postbox = {
-            rolls = 3,
+
             items = {
             "Ammocraft.GunnutMonthly1", 0.1,
             "Ammocraft.GunnutMonthly2", 0.2,
@@ -324,7 +344,7 @@ local distributionTable = {
         },
 
         corn ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Bullets9mm_casing", 0.05,
             "Ammocraft.Bullets45_casing", 0.05,
@@ -335,14 +355,14 @@ local distributionTable = {
 
 		locker ={
     "Ammocraft.Pliers", 4,
-    "Ammocraft.Shotguncasingbox", 2,
-    "Ammocraft.Bullets9mm_casingbox", 5,
-    "Ammocraft.Bullets45_casingbox", 5,
-    "Ammocraft.Bullets44_casingbox", 5,
-    "Ammocraft.Bullets38_casingbox", 5,
-    "Ammocraft.223Bullets_casingbox", 1,
-    "Ammocraft.556Bullets_casingbox", 0.25,
-    "Ammocraft.308Bullets_casingbox", 1,
+    "Ammocraft.ShotgunShells_casingbox", 1,
+    "Ammocraft.Bullets9mm_casingbox", 1,
+    "Ammocraft.Bullets45_casingbox", 0.5,
+    "Ammocraft.Bullets44_casingbox", 0.5,
+    "Ammocraft.Bullets38_casingbox", 0.5,
+    "Ammocraft.223Bullets_casingbox", 0.1,
+    "Ammocraft.556Bullets_casingbox", 0.05,
+    "Ammocraft.308Bullets_casingbox", 0.1,
     "Ammocraft.GunnutMonthly1", 5,
     "Ammocraft.GunnutMonthly2", 2,
     "Ammocraft.GunnutMonthly3", 2,
@@ -351,17 +371,17 @@ local distributionTable = {
 		},
 
         inventorymale = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -370,17 +390,17 @@ local distributionTable = {
             }
         },
         inventoryfemale = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 2,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -397,7 +417,7 @@ local distributionTable = {
 
         },
         shelvesmag ={
-            rolls = 5,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -408,7 +428,7 @@ local distributionTable = {
         },
 
 		desk = {
-			rolls = 1,
+
 			items = {
       "Ammocraft.Pliers", 4,
       "Ammocraft.GunnutMonthly1", 5,
@@ -419,10 +439,10 @@ local distributionTable = {
 			},
 
 			junk = {
-				rolls = 1,
+
 				items = {
         "Ammocraft.Pliers", 0.05,
-        "Ammocraft.Shotguncasing", 2,
+        "Ammocraft.ShotgunShells_casing", 2,
         "Ammocraft.Bullets9mm_casing", 5,
         "Ammocraft.Bullets45_casing", 5,
         "Ammocraft.Bullets44_casing", 5,
@@ -432,17 +452,17 @@ local distributionTable = {
 		},
 
 		filingcabinet = {
-			rolls = 1,
+
 			items = {
-      "Ammocraft.GunnutMonthly1", 5,
-      "Ammocraft.GunnutMonthly2", 2,
-      "Ammocraft.GunnutMonthly3", 2,
-      "Ammocraft.GunnutMonthly4", 2,
+      "Ammocraft.GunnutMonthly1", 1,
+      "Ammocraft.GunnutMonthly2", 1,
+      "Ammocraft.GunnutMonthly3", 1,
+      "Ammocraft.GunnutMonthly4", 1,
       "Ammocraft.GunnutMonthly5", 0.5,
 			},
 
 			junk = {
-				rolls = 1,
+
 				items = {
         "Ammocraft.GunnutMonthly1", 5,
         "Ammocraft.GunnutMonthly2", 2,
@@ -455,14 +475,14 @@ local distributionTable = {
 
 		wardrobe = {
     "Ammocraft.Pliers", 4,
-    "Ammocraft.Shotguncasingbox", 2,
-    "Ammocraft.Bullets9mm_casingbox", 5,
-    "Ammocraft.Bullets45_casingbox", 5,
-    "Ammocraft.Bullets44_casingbox", 5,
-    "Ammocraft.Bullets38_casingbox", 5,
-    "Ammocraft.223Bullets_casingbox", 1,
-    "Ammocraft.556Bullets_casingbox", 0.25,
-    "Ammocraft.308Bullets_casingbox", 1,
+    "Ammocraft.ShotgunShells_casingbox", 1,
+    "Ammocraft.Bullets9mm_casingbox", 1,
+    "Ammocraft.Bullets45_casingbox", 0.5,
+    "Ammocraft.Bullets44_casingbox", 0.5,
+    "Ammocraft.Bullets38_casingbox", 0.5,
+    "Ammocraft.223Bullets_casingbox", 0.1,
+    "Ammocraft.556Bullets_casingbox", 0.05,
+    "Ammocraft.308Bullets_casingbox", 0.1,
     "Ammocraft.GunnutMonthly1", 5,
     "Ammocraft.GunnutMonthly2", 2,
     "Ammocraft.GunnutMonthly3", 2,
@@ -471,18 +491,18 @@ local distributionTable = {
 		},
 
         crate = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -492,30 +512,30 @@ local distributionTable = {
         },
 
 		counter = {
-			rolls = 1,
+
 			items = {
       "Ammocraft.Pliers", 4,
-      "Ammocraft.GunnutMonthly1", 5,
-      "Ammocraft.GunnutMonthly2", 2,
-      "Ammocraft.GunnutMonthly3", 2,
-      "Ammocraft.GunnutMonthly4", 2,
-      "Ammocraft.GunnutMonthly5", 0.5,
+      "Ammocraft.GunnutMonthly1", 0.5,
+      "Ammocraft.GunnutMonthly2", 0.2,
+      "Ammocraft.GunnutMonthly3", 0.2,
+      "Ammocraft.GunnutMonthly4", 0.2,
+      "Ammocraft.GunnutMonthly5", 0.15,
 			},
 
 			junk = {
-				rolls = 1,
+
 				items = {
-        "Ammocraft.GunnutMonthly1", 5,
-        "Ammocraft.GunnutMonthly2", 2,
-        "Ammocraft.GunnutMonthly3", 2,
-        "Ammocraft.GunnutMonthly4", 2,
-        "Ammocraft.GunnutMonthly5", 0.5,
+        "Ammocraft.GunnutMonthly1", 0.5,
+        "Ammocraft.GunnutMonthly2", 0.2,
+        "Ammocraft.GunnutMonthly3", 0.2,
+        "Ammocraft.GunnutMonthly4", 0.2,
+        "Ammocraft.GunnutMonthly5", 0.15,
 				},
 			},
 		},
 
 		sidetable = {
-			rolls = 1,
+
 			items = {
       "Ammocraft.GunnutMonthly1", 5,
       "Ammocraft.GunnutMonthly2", 2,
@@ -525,22 +545,22 @@ local distributionTable = {
 			},
 
 			junk = {
-				rolls = 1,
+
 				items = {
-        "Ammocraft.GunnutMonthly1", 5,
-        "Ammocraft.GunnutMonthly2", 2,
-        "Ammocraft.GunnutMonthly3", 2,
-        "Ammocraft.GunnutMonthly4", 2,
-        "Ammocraft.GunnutMonthly5", 0.5,
+        "Ammocraft.GunnutMonthly1", 0.5,
+        "Ammocraft.GunnutMonthly2", 0.2,
+        "Ammocraft.GunnutMonthly3", 0.2,
+        "Ammocraft.GunnutMonthly4", 0.2,
+        "Ammocraft.GunnutMonthly5", 0.15,
 				},
 			},
 		},
 
         bin = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 0.15,
-            "Ammocraft.Shotguncasing", 2,
+            "Ammocraft.ShotgunShells_casing", 2,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -557,7 +577,7 @@ local distributionTable = {
         },
 
 		officedrawers = {
-			rolls = 1,
+
 			items = {
       "Ammocraft.GunnutMonthly1", 5,
       "Ammocraft.GunnutMonthly2", 2,
@@ -567,7 +587,7 @@ local distributionTable = {
 			},
 
 			junk = {
-				rolls = 1,
+
 				items = {
         "Ammocraft.GunnutMonthly1", 5,
         "Ammocraft.GunnutMonthly2", 2,
@@ -579,7 +599,7 @@ local distributionTable = {
 		},
 
         metal_shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
             "Ammocraft.GunnutMonthly1", 0.5,
@@ -591,7 +611,7 @@ local distributionTable = {
         },
 
         shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -602,9 +622,9 @@ local distributionTable = {
         },
 
         other = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasing", 2,
+            "Ammocraft.ShotgunShells_casing", 2,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -619,18 +639,18 @@ local distributionTable = {
     shed =
     {
         other ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -639,9 +659,9 @@ local distributionTable = {
             },
 
             junk = {
-                rolls = 5,
+
                 items = {
-                "Ammocraft.Shotguncasing", 2,
+                "Ammocraft.ShotgunShells_casing", 2,
                 "Ammocraft.Bullets9mm_casing", 5,
                 "Ammocraft.Bullets45_casing", 5,
                 "Ammocraft.Bullets44_casing", 5,
@@ -661,7 +681,7 @@ local distributionTable = {
         },
 
         logs = {
-            rolls = 4,
+
             items = {
                 "Log", 7,
                 "Log", 7,
@@ -674,7 +694,7 @@ local distributionTable = {
     plazastore1 =
     {
         counter ={
-            rolls = 1,
+
             items = {
             "Ammocraft.GunnutMonthly1", 0.5,
             "Ammocraft.GunnutMonthly2", 0.2,
@@ -688,18 +708,18 @@ local distributionTable = {
     garagestorage =
     {
         other ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -708,9 +728,9 @@ local distributionTable = {
             },
 
             junk = {
-                rolls = 5,
+
                 items = {
-                "Ammocraft.Shotguncasing", 2,
+                "Ammocraft.ShotgunShells_casing", 2,
                 "Ammocraft.Bullets9mm_casing", 5,
                 "Ammocraft.Bullets45_casing", 5,
                 "Ammocraft.Bullets44_casing", 5,
@@ -726,18 +746,18 @@ local distributionTable = {
     garage =
     {
         metal_shelves ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -746,18 +766,18 @@ local distributionTable = {
             }
         },
         crate = {
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -770,24 +790,24 @@ local distributionTable = {
     motelbedroom =
     {
         wardrobe ={
-            rolls = 1,
+
             items = {
             "Ammocraft.Reloadingpress", 0.01,
             "Ammocraft.Pliers", 0.4,
-            "Ammocraft.Shotguncasingbox", 0.02,
+            "Ammocraft.ShotgunShells_casingbox", 0.02,
             "Ammocraft.Bullets9mm_casingbox", 0.05,
             "Ammocraft.Bullets45_casingbox", 0.05,
             "Ammocraft.Bullets44_casingbox", 0.05,
             "Ammocraft.Bullets38_casingbox", 0.05,
             "Ammocraft.223Bullets_casingbox", 0.01,
-            "Ammocraft.556Bullets_casingbox", 0.25,
+            "Ammocraft.556Bullets_casingbox", 0.05,
             "Ammocraft.308Bullets_casingbox", 0.01,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 1,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -802,7 +822,7 @@ local distributionTable = {
     lobby =
     {
         counter ={
-            rolls = 1,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -818,7 +838,7 @@ local distributionTable = {
 
         other =
         {
-            rolls = 5,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -833,14 +853,14 @@ local distributionTable = {
     {
 
         smallcrate={
-            rolls = 2,
+
             items = {
             "Ammocraft.Pliers", 0.4,
             }
         },
 
         smallbox={
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 0.4,
             }
@@ -850,7 +870,7 @@ local distributionTable = {
     library =
     {
         counter ={
-            rolls = 4,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -864,7 +884,7 @@ local distributionTable = {
     toolstore =
     {
         shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 1,
             "Ammocraft.Pliers", 4,
@@ -872,7 +892,7 @@ local distributionTable = {
         },
 
         counter ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 0.1,
             "Ammocraft.Pliers", 2,
@@ -888,9 +908,9 @@ local distributionTable = {
     bar =
     {
         shelves ={
-            rolls = 4,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 0.2,
+            "Ammocraft.ShotgunShells_casingbox", 0.2,
             "Ammocraft.Bullets9mm_casingbox", 0.5,
             "Ammocraft.Bullets45_casingbox", 0.5,
             "Ammocraft.Bullets44_casingbox", 0.5,
@@ -898,16 +918,16 @@ local distributionTable = {
             "Ammocraft.223Bullets_casingbox", 0.1,
             "Ammocraft.556Bullets_casingbox", 0.05,
             "Ammocraft.308Bullets_casingbox", 0.1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
 
         counter ={
-            rolls = 2,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -918,9 +938,9 @@ local distributionTable = {
         },
 
         bin = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasing", 2,
+            "Ammocraft.ShotgunShells_casing", 2,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -928,10 +948,10 @@ local distributionTable = {
             "Ammocraft.223Bullets_casing", 1,
             "Ammocraft.556Bullets_casing", 0.25,
             "Ammocraft.308Bullets_casing", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
@@ -939,51 +959,51 @@ local distributionTable = {
 
     policestorage = {
         locker ={
-            rolls = 4,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
 
         metal_shelves =
         {
-            rolls = 4,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             }
         },
     },
 
     armystorage = {
         locker ={
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
             "Ammocraft.223Bullets_casingbox", 3,
             "Ammocraft.556Bullets_casingbox", 5,
             "Ammocraft.308Bullets_casingbox", 3,
@@ -997,15 +1017,15 @@ local distributionTable = {
 
         metal_shelves =
         {
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
             "Ammocraft.223Bullets_casingbox", 3,
             "Ammocraft.556Bullets_casingbox", 5,
             "Ammocraft.308Bullets_casingbox", 3,
@@ -1015,16 +1035,16 @@ local distributionTable = {
 
     gunstore = {
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 10,
             "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 1,
+            "Ammocraft.Bullets38_casingbox", 1,
+            "Ammocraft.223Bullets_casingbox", 0.5,
+            "Ammocraft.556Bullets_casingbox", 0.15,
+            "Ammocraft.308Bullets_casingbox", 0.5,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -1035,47 +1055,47 @@ local distributionTable = {
         },
 
         displaycase ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 10,
             "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 2,
+            "Ammocraft.Bullets38_casingbox", 2,
             "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
+            "Ammocraft.556Bullets_casingbox", 0.5,
             "Ammocraft.308Bullets_casingbox", 1,
             },
             dontSpawnAmmo = true,
         },
 
         locker ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 10,
             "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 2,
+            "Ammocraft.Bullets38_casingbox", 2,
             "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
+            "Ammocraft.556Bullets_casingbox", 0.5,
             "Ammocraft.308Bullets_casingbox", 1,
             },
             dontSpawnAmmo = true,
         },
 
         metal_shelves ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 10,
             "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 2,
+            "Ammocraft.Bullets38_casingbox", 2,
             "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
+            "Ammocraft.556Bullets_casingbox", 0.5,
             "Ammocraft.308Bullets_casingbox", 1,
             },
             dontSpawnAmmo = true,
@@ -1084,18 +1104,18 @@ local distributionTable = {
 
     gunstorestorage ={
         all={
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
+            "Ammocraft.ShotgunShells_casingbox", 10,
+            "Ammocraft.Bullets9mm_casingbox", 10,
             "Ammocraft.Bullets45_casingbox", 5,
             "Ammocraft.Bullets44_casingbox", 5,
             "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.223Bullets_casingbox", 2,
+            "Ammocraft.556Bullets_casingbox", 1,
+            "Ammocraft.308Bullets_casingbox", 2,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -1109,39 +1129,36 @@ local distributionTable = {
 
     mechanic = {
         wardrobe ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 1,
-            "Ammocraft.Bullets45_casingbox", 1,
-            "Ammocraft.Bullets44_casingbox", 0.5,
-            "Ammocraft.Bullets38_casingbox", 0.5,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.ShotgunShells_casingbox", 0.5,
+            "Ammocraft.Bullets9mm_casingbox", 0.2,
+            "Ammocraft.Bullets45_casingbox", 0.2,
+            "Ammocraft.Bullets44_casingbox", 0.05,
+            "Ammocraft.Bullets38_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
 
         metal_shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.ShotgunShells_casingbox", 0.5,
+            "Ammocraft.Bullets9mm_casingbox", 0.2,
+            "Ammocraft.Bullets45_casingbox", 0.2,
+            "Ammocraft.Bullets44_casingbox", 0.05,
+            "Ammocraft.Bullets38_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
@@ -1149,22 +1166,22 @@ local distributionTable = {
 
     clothesstore = {
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
-            "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 0.5,
+            "Ammocraft.GunnutMonthly5", 0.1,
             },
         },
     },
 
     motelroom = {
         bin = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasing", 2,
+            "Ammocraft.ShotgunShells_casing", 2,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -1172,20 +1189,20 @@ local distributionTable = {
             "Ammocraft.223Bullets_casing", 1,
             "Ammocraft.556Bullets_casing", 0.25,
             "Ammocraft.308Bullets_casing", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
         other ={
-            rolls = 1,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1194,10 +1211,10 @@ local distributionTable = {
     motelroomoccupied = {
 
         bin = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
+            "Ammocraft.ShotgunShells_casingbox", 1,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -1205,21 +1222,21 @@ local distributionTable = {
             "Ammocraft.223Bullets_casing", 1,
             "Ammocraft.556Bullets_casing", 0.25,
             "Ammocraft.308Bullets_casing", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
 
         other ={
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1227,12 +1244,12 @@ local distributionTable = {
 
     empty = {
         all ={
-            rolls = 1,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1240,23 +1257,23 @@ local distributionTable = {
 
     cafe = {
         counter = {
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
 
         bin = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1264,12 +1281,12 @@ local distributionTable = {
 
     restaurant = {
         counter = {
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1277,12 +1294,12 @@ local distributionTable = {
 
     post = {
         counter = {
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1290,21 +1307,21 @@ local distributionTable = {
 
     poststorage = {
         all = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1312,17 +1329,17 @@ local distributionTable = {
 
     generalstorestorage = {
         other = {
-            rolls = 5,
+
             items = {
             "Ammocraft.Reloadingpress", 0.1,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 0.2,
+            "Ammocraft.ShotgunShells_casingbox", 0.2,
             "Ammocraft.Bullets9mm_casingbox", 0.5,
             "Ammocraft.Bullets45_casingbox", 0.5,
             "Ammocraft.Bullets44_casingbox", 0.5,
             "Ammocraft.Bullets38_casingbox", 0.5,
             "Ammocraft.223Bullets_casingbox", 0.1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
+            "Ammocraft.556Bullets_casingbox", 0.05,
             "Ammocraft.308Bullets_casingbox", 0.1,
             },
         },
@@ -1330,13 +1347,13 @@ local distributionTable = {
 
     generalstore = {
         other = {
-            rolls = 5,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1344,12 +1361,12 @@ local distributionTable = {
 
     laundry = {
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1358,61 +1375,49 @@ local distributionTable = {
     furniturestore = {
         freezer =
         {
-            rolls = 0,
             items = {
             }
         },
 
         fridge ={
-            rolls = 0,
             items = {
             }
         },
 
         wardrobe ={
-            rolls = 0,
             items = {
             }
         },
 
         counter ={
-            rolls = 3,
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
     },
 
-    furniturestorage = {
-        wardrobe ={
-            rolls = 0,
-            items = {
-            }
-        },
-    },
-
     storageunit = {
         all ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1420,7 +1425,7 @@ local distributionTable = {
 
     fishingstorage= {
         counter ={
-            rolls = 10,
+
             items = {
             "Ammocraft.GunnutMonthly1", 0.5,
             "Ammocraft.GunnutMonthly2", 0.1,
@@ -1431,12 +1436,12 @@ local distributionTable = {
         },
 
         crate ={
-            rolls = 10,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
@@ -1444,25 +1449,25 @@ local distributionTable = {
 
     theatre = {
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
-            "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly1", 0.5,
+            "Ammocraft.GunnutMonthly2", 0.1,
+            "Ammocraft.GunnutMonthly3", 0.1,
+            "Ammocraft.GunnutMonthly4", 0.05,
+            "Ammocraft.GunnutMonthly5", 0.01,
             },
         },
     },
 
     theatrestorage = {
         crate ={
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1471,18 +1476,18 @@ local distributionTable = {
     cornerstore = {
 
         counter ={
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 0.15,
-            "Ammocraft.GunnutMonthly2", 0.3,
-            "Ammocraft.GunnutMonthly3", 0.5,
-            "Ammocraft.GunnutMonthly4", 0.2,
-            "Ammocraft.GunnutMonthly5", 1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
+            "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
 
         shelvesmag ={
-            rolls = 2,
+
             items = {
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
@@ -1494,7 +1499,7 @@ local distributionTable = {
 
     housewarestore = {
         shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
             },
@@ -1504,7 +1509,7 @@ local distributionTable = {
     shoestore = {
 
         counter ={
-            rolls = 3,
+
             items = {
             "Ammocraft.GunnutMonthly1", 0.15,
             "Ammocraft.GunnutMonthly2", 0.2,
@@ -1516,12 +1521,12 @@ local distributionTable = {
 
     sportstorage = {
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1529,12 +1534,12 @@ local distributionTable = {
 
     giftstorage = {
         crate ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1542,23 +1547,23 @@ local distributionTable = {
 
     giftstore = {
         shelves ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
 
         counter ={
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1566,19 +1571,19 @@ local distributionTable = {
 
     electronicsstore = {
         counter ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 6,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
 
         shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
             }
@@ -1587,7 +1592,7 @@ local distributionTable = {
 
     sewingstore = {
         counter ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 1,
             }
@@ -1596,7 +1601,7 @@ local distributionTable = {
 
     departmentstore = {
         counter = {
-            rolls = 7,
+
             items = {
             "Ammocraft.Pliers", 1,
             "Ammocraft.GunnutMonthly1", 0.5,
@@ -1610,12 +1615,12 @@ local distributionTable = {
 
     hall = {
         counter = {
-            rolls = 3,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
@@ -1624,20 +1629,20 @@ local distributionTable = {
     gasstore = {
 
         shelves = {
-            rolls = 5,
+
             items = {
             "Ammocraft.Pliers", 4,
             }
         },
 
         counter = {
-            rolls = 2,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         }
@@ -1645,7 +1650,7 @@ local distributionTable = {
 
     gasstorage = {
         metal_shelves = {
-            rolls = 5,
+
             items = {
             "Ammocraft.Reloadingpress", 0.3,
             "Ammocraft.Pliers", 4,
@@ -1660,7 +1665,7 @@ local distributionTable = {
 
     farmstorage = {
         all = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
             }
@@ -1669,23 +1674,23 @@ local distributionTable = {
 
     changeroom = {
         locker = {
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
 
         counter = {
-            rolls = 2,
+
             items = {
-            "Ammocraft.GunnutMonthly1", 5,
-            "Ammocraft.GunnutMonthly2", 2,
-            "Ammocraft.GunnutMonthly3", 2,
-            "Ammocraft.GunnutMonthly4", 2,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
@@ -1693,18 +1698,18 @@ local distributionTable = {
 
     hunting = {
         locker = {
-            rolls = 2,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -1714,24 +1719,29 @@ local distributionTable = {
         },
 
         metal_shelves ={
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
+            "Ammocraft.GunnutMonthly1", 1,
+            "Ammocraft.GunnutMonthly2", 1,
+            "Ammocraft.GunnutMonthly3", 1,
+            "Ammocraft.GunnutMonthly4", 1,
+            "Ammocraft.GunnutMonthly5", 0.5,
             },
         },
 
         other = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasing", 2,
+            "Ammocraft.ShotgunShells_casing", 2,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -1747,7 +1757,7 @@ local distributionTable = {
 
 
         all = {
-            rolls = 3,
+
             items = {
             "Ammocraft.GunnutMonthly1", 1,
             "Ammocraft.GunnutMonthly2", 1,
@@ -1759,51 +1769,48 @@ local distributionTable = {
     },
 
     Bag_WeaponBag = {
-        rolls = 3,
+
         items = {
         "Ammocraft.Reloadingpress", 3,
         "Ammocraft.Pliers", 4,
-        "Ammocraft.Shotguncasingbox", 2,
-        "Ammocraft.Bullets9mm_casingbox", 5,
-        "Ammocraft.Bullets45_casingbox", 5,
-        "Ammocraft.Bullets44_casingbox", 5,
-        "Ammocraft.Bullets38_casingbox", 5,
-        "Ammocraft.223Bullets_casingbox", 1,
-        "Ammocraft.556Bullets_casingbox", 0.25,
-        "Ammocraft.308Bullets_casingbox", 1,
-        "Ammocraft.GunnutMonthly1", 5,
-        "Ammocraft.GunnutMonthly2", 2,
-        "Ammocraft.GunnutMonthly3", 2,
-        "Ammocraft.GunnutMonthly4", 2,
+        "Ammocraft.ShotgunShells_casingbox", 1,
+        "Ammocraft.Bullets9mm_casingbox", 1,
+        "Ammocraft.Bullets45_casingbox", 0.5,
+        "Ammocraft.Bullets44_casingbox", 0.5,
+        "Ammocraft.Bullets38_casingbox", 0.5,
+        "Ammocraft.223Bullets_casingbox", 0.1,
+        "Ammocraft.556Bullets_casingbox", 0.05,
+        "Ammocraft.308Bullets_casingbox", 0.1,
+        "Ammocraft.GunnutMonthly1", 1,
+        "Ammocraft.GunnutMonthly2", 1,
+        "Ammocraft.GunnutMonthly3", 1,
+        "Ammocraft.GunnutMonthly4", 1,
         "Ammocraft.GunnutMonthly5", 0.5,
         },
         fillRand = 0,
     },
 
     Bag_SurvivorBag = {
-        rolls = 5,
+
         items = {
         "Ammocraft.Reloadingpress", 3,
         "Ammocraft.Pliers", 4,
-        "Ammocraft.Shotguncasingbox", 2,
-        "Ammocraft.Bullets9mm_casingbox", 5,
-        "Ammocraft.Bullets45_casingbox", 5,
-        "Ammocraft.Bullets44_casingbox", 5,
-        "Ammocraft.Bullets38_casingbox", 5,
-        "Ammocraft.223Bullets_casingbox", 1,
-        "Ammocraft.556Bullets_casingbox", 0.25,
-        "Ammocraft.308Bullets_casingbox", 1,
-        "Ammocraft.GunnutMonthly1", 5,
-        "Ammocraft.GunnutMonthly2", 2,
-        "Ammocraft.GunnutMonthly3", 2,
-        "Ammocraft.GunnutMonthly4", 2,
+        "Ammocraft.ShotgunShells_casingbox", 1,
+        "Ammocraft.Bullets9mm_casingbox", 1,
+        "Ammocraft.Bullets45_casingbox", 0.5,
+        "Ammocraft.Bullets44_casingbox", 0.5,
+        "Ammocraft.Bullets38_casingbox", 0.5,
+        "Ammocraft.GunnutMonthly1", 1,
+        "Ammocraft.GunnutMonthly2", 1,
+        "Ammocraft.GunnutMonthly3", 1,
+        "Ammocraft.GunnutMonthly4", 1,
         "Ammocraft.GunnutMonthly5", 0.5,
         },
         fillRand = 0,
     },
 
     Bag_WorkerBag = {
-        rolls = 2,
+
         items = {
         "Ammocraft.Pliers", 4,
         },
@@ -1811,7 +1818,7 @@ local distributionTable = {
     },
 
     Toolbox = {
-        rolls = 2,
+
         items = {
         "Ammocraft.Pliers", 4,
         },
@@ -1819,9 +1826,9 @@ local distributionTable = {
     },
 
     Garbagebag = {
-        rolls = 1,
+
         items = {
-        "Ammocraft.Shotguncasing", 0.5,
+        "Ammocraft.ShotgunShells_casing", 0.5,
         "Ammocraft.Bullets9mm_casing", 0.5,
         "Ammocraft.Bullets45_casing", 0.5,
         "Ammocraft.Bullets44_casing", 0.5,
@@ -1829,15 +1836,18 @@ local distributionTable = {
         "Ammocraft.223Bullets_casing", 0.1,
         "Ammocraft.556Bullets_casing", 0.05,
         "Ammocraft.308Bullets_casing", 0.1,
-        "Ammocraft.GunnutMonthly1", 5,
-        "Ammocraft.GunnutMonthly2", 2,
+        "Ammocraft.GunnutMonthly1", 1,
+        "Ammocraft.GunnutMonthly2", 1,
+        "Ammocraft.GunnutMonthly3", 1,
+        "Ammocraft.GunnutMonthly4", 1,
+        "Ammocraft.GunnutMonthly5", 0.5,
         },
         fillRand = 2,
     },
 
     Carpenter = {
         counter = {
-            rolls = 4,
+
             items = {
             "Ammocraft.Pliers", 4,
             }
@@ -1846,7 +1856,7 @@ local distributionTable = {
 
     Electrician = {
         counter = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
             }
@@ -1855,16 +1865,16 @@ local distributionTable = {
 
     ShotgunCache1 = {
         ShotgunBox = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 50,
+            "Ammocraft.ShotgunShells_casingbox", 50,
             }
         },
 
         Bag_DuffelBagTINT = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 50,
+            "Ammocraft.ShotgunShells_casingbox", 50,
             },
             fillRand=3,
         },
@@ -1872,37 +1882,37 @@ local distributionTable = {
 
     ShotgunCache2 = {
         ShotgunBox = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 30,
+            "Ammocraft.ShotgunShells_casingbox", 30,
             }
         },
 
         counter = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 50,
+            "Ammocraft.ShotgunShells_casingbox", 50,
             }
         },
     },
 
     ToolsCache1 = {
         ToolsBox = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 5,
             },
         },
 
         counter = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
             },
         },
 
         Bag_DuffelBagTINT = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
             },
@@ -1912,17 +1922,17 @@ local distributionTable = {
 
     GunCache1 = {
         GunBox = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -1933,34 +1943,34 @@ local distributionTable = {
         },
 
         counter = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             },
         },
 
         Bag_DuffelBagTINT = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             },
             fillRand = 3,
         },
@@ -1968,28 +1978,28 @@ local distributionTable = {
 
     GunCache2 = {
         GunBox = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             },
             dontSpawnAmmo = true,
         },
 
         Bag_DuffelBagTINT = {
-            rolls = 1,
+
             items = {
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
             },
             fillRand=3,
         },
@@ -1998,18 +2008,18 @@ local distributionTable = {
     SurvivorCache1 = {
 
         SurvivorCrate = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -2022,18 +2032,18 @@ local distributionTable = {
     SurvivorCache2 = {
 
         SurvivorCrate = {
-            rolls = 1,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -2047,17 +2057,17 @@ local distributionTable = {
     {
         locker =
         {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -2070,50 +2080,51 @@ local distributionTable = {
 
     armysurplus = {
         shelves = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 1,
+            "Ammocraft.Bullets45_casingbox", 0.5,
+            "Ammocraft.Bullets44_casingbox", 0.5,
+            "Ammocraft.Bullets38_casingbox", 0.5,
+            "Ammocraft.223Bullets_casingbox", 0.1,
+            "Ammocraft.556Bullets_casingbox", 0.05,
+            "Ammocraft.308Bullets_casingbox", 0.1,
             },
         },
     },
 
     armyhanger = {
         metal_shelves = {
-            rolls = 3,
+
+            items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 0.5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 1,
+            "Ammocraft.Bullets38_casingbox", 0.2,
+            "Ammocraft.223Bullets_casingbox", 2,
+            "Ammocraft.556Bullets_casingbox", 5,
+            "Ammocraft.308Bullets_casingbox", 2,
             },
         },
 
         counter = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Reloadingpress", 3,
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 0.1,
+            "Ammocraft.Bullets9mm_casingbox", 0.5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 1,
+            "Ammocraft.Bullets38_casingbox", 0.2,
+            "Ammocraft.223Bullets_casingbox", 2,
+            "Ammocraft.556Bullets_casingbox", 5,
+            "Ammocraft.308Bullets_casingbox", 2,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -2123,17 +2134,17 @@ local distributionTable = {
         },
 
         locker = {
-            rolls = 3,
+
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.Shotguncasingbox", 2,
-            "Ammocraft.Bullets9mm_casingbox", 5,
-            "Ammocraft.Bullets45_casingbox", 5,
-            "Ammocraft.Bullets44_casingbox", 5,
-            "Ammocraft.Bullets38_casingbox", 5,
-            "Ammocraft.223Bullets_casingbox", 1,
-            "Ammocraft.556Bullets_casingbox", 0.25,
-            "Ammocraft.308Bullets_casingbox", 1,
+            "Ammocraft.ShotgunShells_casingbox", 1,
+            "Ammocraft.Bullets9mm_casingbox", 0.5,
+            "Ammocraft.Bullets45_casingbox", 2,
+            "Ammocraft.Bullets44_casingbox", 1,
+            "Ammocraft.Bullets38_casingbox", 0.2,
+            "Ammocraft.223Bullets_casingbox", 2,
+            "Ammocraft.556Bullets_casingbox", 5,
+            "Ammocraft.308Bullets_casingbox", 2,
             "Ammocraft.GunnutMonthly1", 5,
             "Ammocraft.GunnutMonthly2", 2,
             "Ammocraft.GunnutMonthly3", 2,
@@ -2144,12 +2155,12 @@ local distributionTable = {
     },
 }
 
-table.insert(Distributions, 1, distributionTable);
+table.insert(Distributions, distributionTable);
 
 --*******All Items***************--
 --"Ammocraft.Reloadingpress"
 --"Ammocraft.Pliers"
---"Ammocraft.Shotguncasingbox"
+--"Ammocraft.ShotgunShells_casingbox"
 --"Ammocraft.Bullets9mm_casingbox"
 --"Ammocraft.Bullets45_casingbox"
 --"Ammocraft.Bullets44_casingbox"
