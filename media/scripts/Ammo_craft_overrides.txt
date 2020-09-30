@@ -130,7 +130,7 @@ module Base
 		Type	=	Normal,
 		DisplayCategory = Ammo,
 		DisplayName	=	Shotgun Shells,
-		Icon	=	ShotgunAmmo,
+		Icon	=	ShotgunShells,
 		MetalValue = 1,
 	}
 
@@ -259,6 +259,166 @@ module Base
         MaxAmmo = 20,
         AmmoType = Base.308Bullets,
         StaticModel = GunMagazine,
+    }
+
+		recipe Open Box of 9mm Bullets
+    {
+        Bullets9mmBox,
+
+        Result:Bullets9mm=6,
+        Sound:PutItemInBag,
+        Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .45 Auto Bullets
+    {
+        Bullets45Box,
+
+        Result:Bullets45=6,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .38 Special Bullets
+    {
+        Bullets38Box,
+
+        Result:Bullets38=6,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .44 Magnum Bullets
+    {
+        Bullets44Box,
+
+        Result:Bullets44=4,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .223 Ammo
+    {
+        223Box,
+
+        Result:223Bullets=8,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .308 Ammo
+    {
+        308Box,
+
+        Result:308Bullets=8,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of Shotgun Shells
+    {
+        ShotgunShellsBox,
+
+        Result:ShotgunShells=4,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Open Box of .556 Ammo
+    {
+        556Box,
+
+        Result:556Bullets=12,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .556 Ammo in Box
+    {
+        556Bullets=60,
+
+        Result:556Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .223 Ammo in Box
+    {
+        223Bullets=40,
+
+        Result:223Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .308 Ammo in Box
+    {
+        308Bullets=40,
+
+        Result:308Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place 9mm Bullets in Box
+    {
+        Bullets9mm=30,
+
+        Result:Bullets9mmBox,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .45 Auto Bullets in Box
+    {
+        Bullets45=30,
+
+        Result:Bullets45Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .38 Speciam Bullets in Box
+    {
+        Bullets38=30,
+
+        Result:Bullets38Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place .44 Magnum Bullets in Box
+    {
+        Bullets44=12,
+
+        Result:Bullets44Box,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
+    }
+
+    recipe Place Shotgun Shells in Box
+    {
+        ShotgunShells=24,
+
+        Result:ShotgunShellsBox,
+        Sound:PutItemInBag,
+				Time:15.0,
+				Prop2:Ammobox,
     }
 
 }
