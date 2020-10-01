@@ -1,0 +1,101 @@
+module Ammocraft
+{
+	imports
+	{
+		Base,
+	}
+
+	/************************Magazines************************/
+	item GunnutMonthly1
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly March '92 'Handgun Edition',
+		Icon	=	GunnutMonthly1,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Make 9mm Round;Make .45 Round;Make .44 Round;Dismantle 9mm Round;Dismantle .45 Round;Dismantle .44 Round,
+		ReplaceOnUse    =   GunnutMonthly1,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly2
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly May '92 'Shotgun Edition',
+		Icon	=	GunnutMonthly2,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Make Shotgun Shell;Dismantle Shotgun Shell,
+		ReplaceOnUse    =   GunnutMonthly2,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly3
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly June '92 'Rifle Edition',
+		Icon	=	GunnutMonthly3,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Make .223 Round;Make .308 Round;Dismantle .223 Round;Dismantle .308 Round,
+		ReplaceOnUse    =   GunnutMonthly3,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly4
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly July '92 'Revolver Edition',
+		Icon	=	GunnutMonthly4,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Make .44 Round;Make .38 Super Round;Dismantle .44 Round;Dismantle .38 Round,
+		ReplaceOnUse    =   GunnutMonthly4,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly5
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly August '92 'Assault Rifle Edition',
+		Icon	=	GunnutMonthly5,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Make 5.56 Round;Dismantle 5.56 Round,
+		ReplaceOnUse    =   GunnutMonthly5,
+		StaticModel = Magazine,
+	}
+
+	item GunnutMonthly6
+	{
+		Weight	=	0.15,
+		Type	=	Literature,
+		DisplayName	=	Gunnut Monthly December '91 'Survival Edition',
+		Icon	=	GunnutMonthly5,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Reload Small Pistol Primer;Reload Large Pistol Primer;Reload Rifle Primer;Reload Shotgun Primer,
+		ReplaceOnUse    =   GunnutMonthly5,
+		StaticModel = Magazine,
+	}
+
+	/************************Books************************/
+	item GunnutBible
+	{
+		Weight	=	1.5,
+		Type	=	Literature,
+		DisplayName	=	The New Gunnut Testament,
+		Icon	=	GunnutBible,
+		Weight	=	0.15,
+		Type	=	Literature,
+		TeachedRecipes =   Cast 9mm Bullet Tip;Cast .45 Bullet Tip;Cast .44 Bullet Tip;Cast .38 Super Bullet Tip;Cast .308 Bullet Tip;Cast .223 Bullet Tip;Cast 5.56 Bullet Tip,
+		ReplaceOnUse    =   GunnutBible,
+		StaticModel = Book,
+	}
+
+}

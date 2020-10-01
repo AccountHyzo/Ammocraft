@@ -4,336 +4,596 @@ module Ammocraft
 	{
 		Base,
 	}
+	/*****************************************************/
+	/*                       Boxes                       */
+	/*****************************************************/
+		recipe Open 9mm Bullet Casing  Box
+		{
+			Bullets9mm_casingbox,
 
- 	/************************Ammo Recipes************************/
-	recipe Make 9mm Round
-	{
-		Bullets9mm_casing,
-		Bullets9mm_tip,
-		Primer,
-		GunPowder=12,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:Bullets9mm_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets9mm,
-		Time:230.0,
-    Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open .45 Bullet Casing  Box
+		{
+			Bullets45_casingbox,
 
-	recipe Make .45 Round
-	{
-		Bullets45_casing,
-		Bullets45_tip,
-		Primer,
-		GunPowder=12,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:Bullets45_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets45,
-		Time:230.0,
-    Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open .38 Bullet Casing  Box
+		{
+			Bullets38_casingbox,
 
-	recipe Make .44 Round
-	{
-		Bullets44_casing,
-		Bullets44_tip,
-		Primer,
-		GunPowder=12,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:Bullets38_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets44,
-		Time:230.0,
-    Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open .44 Bullet Casing  Box
+		{
+			Bullets44_casingbox,
 
-	recipe Make .38 Super Round
-	{
-		Bullets38_casing,
-		Bullets38_tip,
-		Primer,
-		GunPowder=12,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:Bullets44_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets38,
-		Time:230.0,
-		Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open .308 Bullet Casing  Box
+		{
+			308Bullets_casingbox,
 
-	recipe Make .308 Round
-	{
-		308Bullets_casing,
-		308Bullets_tip,
-		Primer,
-		GunPowder=16,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:308Bullets_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:308Bullets,
-		Time:230.0,
-		Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open .223 Bullet Casing  Box
+		{
+			223Bullets_casingbox,
 
-	recipe Make .223 Round
-	{
-		223Bullets_casing,
-		223Bullets_tip,
-		Primer,
-		GunPowder=18,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:223Bullets_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:223Bullets,
-		Time:230.0,
-		Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open 5.56 Bullet Casing  Box
+		{
+			556Bullets_casingbox,
 
-	recipe Make 5.56 Round
-	{
-		556Bullets_casing,
-		556Bullets_tip,
-		Primer,
-		GunPowder=20,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:556Bullets_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:556Bullets,
-		Time:230.0,
-		Category:Welding,
-		Prop1:Bullet,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open Shotgun Casing  Box
+		{
+			ShotgunShells_casingbox,
 
-	recipe Make Shotgun Shell
-	{
-		ShotgunShells_casing,
-		ShotgunShells_tip,
-		GunPowder=24,
-		Primer,
-		keep Reloadingpress,
+			CanBeDoneFromFloor:false,
+			Result:ShotgunShells_casing=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:ShotgunShell,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:ShotgunShells,
-		Time:230.0,
-		Category:Welding,
-		Prop1:ShotgunShell,
-		Prop2:Reloadingpress,
-		NeedToBeLearn:true,
-	}
+		recipe Open 9mm Bullet Tip  Box
+		{
+			Bullets9mm_tipbox,
 
-	recipe Open 9mm Bullet Casing  Box
-	{
-		Bullets9mm_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:Bullets9mm_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets9mm_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open .45 Bullet Tip  Box
+		{
+			Bullets45_tipbox,
 
-	recipe Open .45 Bullet Casing  Box
-	{
-		Bullets45_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:Bullets45_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets45_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open .38 Bullet Tip  Box
+		{
+			Bullets38_tipbox,
 
-	recipe Open .38 Bullet Casing  Box
-	{
-		Bullets38_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:Bullets38_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets38_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open .44 Bullet Tip  Box
+		{
+			Bullets44_tipbox,
 
-	recipe Open .44 Bullet Casing  Box
-	{
-		Bullets44_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:Bullets44_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets44_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open .308 Bullet Tip  Box
+		{
+			308Bullets_tipbox,
 
-	recipe Open .308 Bullet Casing  Box
-	{
-		308Bullets_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:308Bullets_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:308Bullets_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open .223 Bullet Tip  Box
+		{
+			223Bullets_tipbox,
 
-	recipe Open .223 Bullet Casing  Box
-	{
-		223Bullets_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:223Bullets_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:223Bullets_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open 5.56 Bullet Tip  Box
+		{
+			556Bullets_tipbox,
 
-	recipe Open 5.56 Bullet Casing  Box
-	{
-		556Bullets_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:556Bullets_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:Bullet,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:556Bullets_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open Shotgun Buckshot  Box
+		{
+			ShotgunShells_tipbox,
 
-	recipe Open Shotgun Casing  Box
-	{
-		ShotgunShells_casingbox,
+			CanBeDoneFromFloor:false,
+			Result:ShotgunShells_tip=50,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop1:ShotgunShell,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:ShotgunShells_casing=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:ShotgunShell,
-		Prop2:Ammobox,
-	}
+		recipe Open Small Pistol Primer  Box
+		{
+			SP_Primers_box,
 
-	recipe Open 9mm Bullet Tip  Box
-	{
-		Bullets9mm_tipbox,
+			CanBeDoneFromFloor:false,
+			Result:SP_Primers=100,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets9mm_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open Large Pistol Primer  Box
+		{
+			LP_Primers_box,
 
-	recipe Open .45 Bullet Tip  Box
-	{
-		Bullets45_tipbox,
+			CanBeDoneFromFloor:false,
+			Result:LP_Primers=100,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets45_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open Rifle Primer  Box
+		{
+			R_Primers_box,
 
-	recipe Open .38 Bullet Tip  Box
-	{
-		Bullets38_tipbox,
+			CanBeDoneFromFloor:false,
+			Result:R_Primers=100,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets38_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open Shotgun Primer  Box
+		{
+			SG_Primers_box,
 
-	recipe Open .44 Bullet Tip  Box
-	{
-		Bullets44_tipbox,
+			CanBeDoneFromFloor:false,
+			Result:SG_Primers=100,
+			Sound:PutItemInBag,
+			Time:30.0,
+			Prop2:Ammobox,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:Bullets44_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		recipe Open Jar of Gunpowder
+		{
+			GunpowderJar,
 
-	recipe Open .308 Bullet Tip  Box
-	{
-		308Bullets_tipbox,
+			CanBeDoneFromFloor:false,
+			Result:GunPowder=10,
+			Sound:PutItemInBag,
+			Time:30.0,
+		}
 
-		CanBeDoneFromFloor:true,
-		Result:308Bullets_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		/*******************************************************/
+		/*                      Primers                        */
+		/*******************************************************/
 
-	recipe Open .223 Bullet Tip  Box
-	{
-		223Bullets_tipbox,
+		recipe Remove Spent Small Pistol Primer
+		{
+		Bullets9mm_casing_spent/Bullets38_casing_spent,
+		keep Nail/Screwdriver,
+		keep Hammer,
 
-		CanBeDoneFromFloor:true,
-		Result:223Bullets_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		Result:SP_Primers_Spent,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Pliers,
+		OnCreate:recipe_Remove_Spent_Primer,
+		}
+		recipe Remove Spent Large Pistol Primer
+		{
+		Bullets45_casing_spent/Bullets44_casing_spent,
+		keep Nail/Screwdriver,
+		keep Hammer,
 
-	recipe Open 5.56 Bullet Tip  Box
-	{
-		556Bullets_tipbox,
+		Result:LP_Primers_Spent,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Pliers,
+		OnCreate:recipe_Remove_Spent_Primer,
+		}
+		recipe Remove Spent Rifle Primer
+		{
+		308Bullets_casing_spent/223Bullets_casing_spent/556Bullets_casing_spent,
+		keep Nail/Screwdriver,
+		keep Hammer,
 
-		CanBeDoneFromFloor:true,
-		Result:556Bullets_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:Bullet,
-		Prop2:Ammobox,
-	}
+		Result:R_Primers_Spent,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Pliers,
+		OnCreate:recipe_Remove_Spent_Primer,
+		}
+		recipe Remove Spent Shotgun Shell Primer
+		{
+		ShotgunShells_casing_spent,
+		keep Nail/Screwdriver,
+		keep Hammer,
 
-	recipe Open Shotgun Buckshot  Box
-	{
-		ShotgunShells_tipbox,
+		Result:SG_Primers_Spent,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Pliers,
+		OnCreate:recipe_Remove_Spent_Primer,
+		}
+		recipe Reload Small Pistol Primer
+		{
+			SP_Primers_Spent,
+			GunPowder/Matches,
+			keep Screwdriver,
 
-		CanBeDoneFromFloor:true,
-		Result:ShotgunShells_tip=50,
-		Sound:PutItemInBag,
-		Time:230.0,
-		Prop1:ShotgunShell,
-		Prop2:Ammobox,
-	}
+			CanBeDoneFromFloor:true,
+			Result:SP_Primers,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Screwdriver,
+			NeedToBeLearn:true,
+		}
+		recipe Reload Large Pistol Primer
+		{
+			LP_Primers_Spent,
+			GunPowder/Matches=2,
+			keep Screwdriver,
 
+			CanBeDoneFromFloor:true,
+			Result:LP_Primers,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Screwdriver,
+			NeedToBeLearn:true,
+		}
+		recipe Reload Rifle Primer
+		{
+			R_Primers_Spent,
+			GunPowder/Matches=3,
+			keep Screwdriver,
+
+			CanBeDoneFromFloor:true,
+			Result:R_Primers,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Screwdriver,
+			NeedToBeLearn:true,
+		}
+		recipe Reload Shotgun Primer
+		{
+			SG_Primers_Spent,
+			GunPowder/Matches=2,
+			keep Screwdriver,
+
+			CanBeDoneFromFloor:true,
+			Result:SG_Primers,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:ShotgunShells,
+			Prop2:Screwdriver,
+			NeedToBeLearn:true,
+		}
+		/*******************************************************/
+		/*                 Assembling Rounds                   */
+		/*******************************************************/
+		recipe Make 9mm Round
+		{
+			Bullets9mm_casing,
+			Bullets9mm_tip,
+			GunPowder=12,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets9mm,
+			Time:230.0,
+	    Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make .45 Round
+		{
+			Bullets45_casing,
+			Bullets45_tip,
+			GunPowder=12,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets45,
+			Time:230.0,
+	    Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make .44 Round
+		{
+			Bullets44_casing,
+			Bullets44_tip,
+			GunPowder=12,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets44,
+			Time:230.0,
+	    Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make .38 Super Round
+		{
+			Bullets38_casing,
+			Bullets38_tip,
+			GunPowder=12,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets38,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make .308 Round
+		{
+			308Bullets_casing,
+			308Bullets_tip,
+			GunPowder=16,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:308Bullets,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make .223 Round
+		{
+			223Bullets_casing,
+			223Bullets_tip,
+			GunPowder=18,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:223Bullets,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make 5.56 Round
+		{
+			556Bullets_casing,
+			556Bullets_tip,
+			GunPowder=20,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:556Bullets,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+
+		recipe Make Shotgun Shell
+		{
+			ShotgunShells_casing,
+			ShotgunShells_tip,
+			GunPowder=24,
+			keep Reloadingpress,
+
+			CanBeDoneFromFloor:true,
+			Result:ShotgunShells,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:ShotgunShell,
+			Prop2:Reloadingpress,
+			NeedToBeLearn:true,
+		}
+	/*	Casings	*/
+		recipe Insert Primer into 9mm Casing
+		{
+			Bullets9mm_casing_spent_noprimer,
+			SP_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets9mm_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into .45 Casing
+		{
+			Bullets45_casing_spent_noprimer,
+			LP_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets45_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into .44 Casing
+		{
+			Bullets44_casing_spent_noprimer,
+			LP_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets44_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into .38 Casing
+		{
+			Bullets38_casing_spent_noprimer,
+			SP_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:Bullets38_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into .308 Casing
+		{
+			308Bullets_casing_spent_noprimer,
+			R_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:308Bullets_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into .223 Casing
+		{
+			223Bullets_casing_spent_noprimer,
+			R_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:223Bullets_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into 5.56 Casing
+		{
+			556Bullets_casing_spent_noprimer,
+			R_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:556Bullets_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:Bullet,
+		}
+
+		recipe Insert Primer into Shotgun Shell
+		{
+			ShotgunShells_casing_spent_noprimer,
+			SG_Primers,
+
+			CanBeDoneFromFloor:true,
+			Result:ShotgunShells_casing,
+			Time:230.0,
+			Category:Ammunition,
+			Prop1:ShotgunShell,
+		}
+	/*******************************************************/
+	/*                    Dismantling                      */
+	/*******************************************************/
 	recipe Dismantle 9mm Round
 	{
 		Bullets9mm,
@@ -341,6 +601,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -353,6 +614,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -365,6 +627,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -377,6 +640,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -389,6 +653,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -401,6 +666,7 @@ module Ammocraft
 
 		Result:GunPowder=1,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -413,6 +679,7 @@ module Ammocraft
 
 		Result:GunPowder=2,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
@@ -425,24 +692,28 @@ module Ammocraft
 
 		Result:GunPowder=2,
 		Time:50.0,
+		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
 	}
-
+	/*******************************************************/
+	/*                      Casting                        */
+	/*******************************************************/
 	recipe Cast 9mm Bullet Tip
 	{
 	lead,
 	BlowTorch=1,
 	keep 9mmBulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:Bullets9mm_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-  SkillRequired:MetalWelding=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+  SkillRequired:MetalAmmunition=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -451,14 +722,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 45BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:Bullets45_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -467,14 +739,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 44BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:Bullets44_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -483,14 +756,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 44BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:Bullets38_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -499,14 +773,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 308BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:308Bullets_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=5,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -515,14 +790,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 223BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:223Bullets_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=5,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -531,14 +807,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep 556BulletsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:556Bullets_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=6,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=6,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	NeedToBeLearn:true,
 	}
 
@@ -547,14 +824,15 @@ module Ammocraft
 	lead,
 	BlowTorch=1,
 	keep ShotgunShellsMold,
+	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
 	Result:ShotgunShells_tip,
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalWelding=1,
-	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	SkillRequired:MetalAmmunition=1,
+	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
 	}
 
 }

@@ -421,4 +421,26 @@ module Base
 				Prop2:Ammobox,
     }
 
+	/************************Misc************************/
+
+	item GunPowder
+	{
+			Weight	=	0.1,
+			Type	=	Drainable,
+			UseDelta = 0.1,
+			UseWhileEquipped = FALSE,
+			DisplayName	=	Gunpowder,
+			Icon	=	Gunpowder,
+			WeightEmpty = 0.01
+	}
+
+	item GunpowderJar
+	{
+			Weight	=	1,
+			UseDelta = 0.1,
+			UseWhileEquipped = FALSE,
+			DisplayName	=	Jar of Gunpowder,
+			Icon	=	GunpowderJar,
+	}
+
 }

@@ -1,0 +1,558 @@
+module Ammocraft
+{
+	imports
+	{
+		Base,
+	}
+ 	/*****************************************************/
+ 	/*                       Boxes                       */
+	/*****************************************************/
+	item Bullets9mm_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of 9mm Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item Bullets45_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .45 Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item Bullets44_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .44 Bullet Casings,
+		Icon	= Ammobox_Casings,
+	}
+	item Bullets38_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .38 Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item 308Bullets_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .308 Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item 223Bullets_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .223 Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item 556Bullets_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .556 Bullet Casings,
+		Icon	=	Ammobox_Casings,
+	}
+	item ShotgunShells_casingbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of Empty Shotgun Shells,
+		Icon	=	Ammobox_Shotgun,
+	}
+	item Bullets9mm_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of 9mm Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item Bullets45_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .45 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item Bullets44_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .44 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item Bullets38_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .38 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item 308Bullets_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .308 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item 223Bullets_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .223 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item 556Bullets_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of .556 Bullet Tips,
+		Icon	=	Ammobox_Tips,
+	}
+	item ShotgunShells_tipbox
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Jar of Shotgun Buckshot,
+		Icon	=	GunpowderJar,
+	}
+	item SP_Primers_box
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of Small Pistol Primers,
+		Icon	=	Ammobox_Primers,
+	}
+	item LP_Primers_box
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of Large Pistol Primers,
+		Icon	=	Ammobox_Primers,
+	}
+	item R_Primers_box
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of Rifle Primers,
+		Icon	= Ammobox_Primers,
+	}
+	item SG_Primers_box
+	{
+		CanStack	=	FALSE,
+		Weight	=	0.5,
+		Type	=	Normal,
+		DisplayName	=	Box of Shotgun Primers,
+		Icon	=	Ammobox_Primers,
+	}
+	/**************************************************************/
+	/*                       Casings & Tips                       */
+	/**************************************************************/
+	item Bullets9mm_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	9mm Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item Bullets9mm_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	Spent 9mm Bullet Casing,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item Bullets9mm_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	9mm Bullet Casing Without Primer,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item Bullets9mm_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	9mm Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item Bullets45_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.45 Bullet Casing,
+		Icon	=	45_Casing,
+        	MetalValue = 10,
+	}
+	item Bullets45_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	Spent .45 Bullet Casing,
+		Icon	=	45_Casing,
+					MetalValue = 10,
+	}
+	item Bullets45_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.45 Bullet Casing Without Primer,
+		Icon	=	45_Casing,
+					MetalValue = 10,
+	}
+	item Bullets45_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	.45 Bullet,
+		Icon	=	45_Bullet,
+        	MetalValue = 5,
+	}
+	item Bullets44_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.44 Bullet Casing,
+		Icon	=	45_Casing,
+        	MetalValue = 10,
+	}
+	item Bullets44_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Spent	.44 Bullet Casing,
+		Icon	=	45_Casing,
+					MetalValue = 10,
+	}
+	item Bullets44_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.44 Bullet Casing Without Primer,
+		Icon	=	45_Casing,
+					MetalValue = 10,
+	}
+	item Bullets44_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	.44 Bullet,
+		Icon	=	45_Bullet,
+        	MetalValue = 5,
+	}
+	item Bullets38_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.38 Super Bullet Casing,
+		Icon	=	38_Casing,
+        	MetalValue = 10,
+	}
+	item Bullets38_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Spent	.38 Bullet Casing,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item Bullets38_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.38 Bullet Casing Without Primer,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item Bullets38_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	.38 Super Bullet,
+		Icon	=	38_Bullet,
+        	MetalValue = 5,
+	}
+	item 308Bullets_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.308 Bullet Casing,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item 308Bullets_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Spent	.308 Bullet Casing,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item 308Bullets_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.308 Bullet Casing Without Primer,
+		Icon	=	38_Casing,
+					MetalValue = 10,
+	}
+	item 308Bullets_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	.308 Bullet,
+		Icon	=	38_Bullet,
+					MetalValue = 5,
+	}
+	item 223Bullets_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.223 Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item 223Bullets_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Spent	.223 Bullet Casing,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item 223Bullets_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	.223 Bullet Casing Without Primer,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item 223Bullets_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	.223 Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item 556Bullets_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	5.56 Bullet Casing,
+		Icon	=	9mm_Casing,
+        	MetalValue = 10,
+	}
+	item 556Bullets_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	= Spent	5.56 Bullet Casing,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item 556Bullets_casing_spent_noprimer
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	5.56 Bullet Casing Without Primer,
+		Icon	=	9mm_Casing,
+					MetalValue = 10,
+	}
+	item 556Bullets_tip
+	{
+	  CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	5.56 Bullet,
+		Icon	=	9mm_Bullet,
+        	MetalValue = 5,
+	}
+	item ShotgunShells_casing
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	Empty Shotgunshell,
+		Icon	=	ShotgunShells,
+        	MetalValue = 10,
+	}
+	item ShotgunShells_casing_spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.05,
+		Type	=	Normal,
+		DisplayName	=	Spent Empty Shotgunshell,
+		Icon	=	ShotgunShells,
+					MetalValue = 10,
+	}
+	item ShotgunShells_tip
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Shotgun buckshot,
+		Icon	=	ShotgunShells_Buckshot,
+        	MetalValue = 5,
+	}
+	/*******************************************************/
+	/*                      Primers                        */
+	/*******************************************************/
+	item SP_Primers
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Small Pistol Primer,
+		Icon	=	Primer,
+	}
+	item LP_Primers
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Large Pistol Primer,
+		Icon	=	Primer,
+	}
+	item R_Primers
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Rifle Primer,
+		Icon	=	Primer,
+	}
+	item SG_Primers
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Shotgun Primer,
+		Icon	=	Primer,
+	}
+	item SP_Primers_Spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Spent	Small Pistol Primer,
+		Icon	=	Primer,
+	}
+	item LP_Primers_Spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Spent Large Pistol Primer,
+		Icon	=	Primer,
+	}
+	item R_Primers_Spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Spent Rifle Primer,
+		Icon	=	Primer,
+	}
+	item SG_Primers_Spent
+	{
+		CanStack	=	TRUE,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	=	Spent Shotgun Primer,
+		Icon	=	Primer,
+	}
+	/*****************************************************/
+	/*                       Molds                       */
+	/*****************************************************/
+	item 45BulletsMold
+	{
+			Weight = 0.5,
+			Type = Normal,
+			DisplayName	= .45 Bullets Mold,
+			Icon = BulletMold,
+			MetalValue = 15,
+	}
+
+	item 44BulletsMold
+	{
+			Weight = 0.5,
+			Type = Normal,
+			DisplayName	= .44 Bullets Mold,
+			Icon = BulletMold,
+			MetalValue = 15,
+	}
+
+	item 38BulletsMold
+	{
+			Weight = 0.5,
+			Type = Normal,
+			DisplayName	= .38 Super Bullets Mold,
+			Icon = BulletMold,
+			MetalValue = 15,
+	}
+
+	item 556BulletsMold
+	{
+			Weight = 0.5,
+			Type = Normal,
+			DisplayName	= 5.56 Bullets Mold,
+			Icon = BulletMold,
+			MetalValue = 15,
+	}
+
+}

@@ -23,9 +23,15 @@ function ISSemiAutoWeapon:fireShot(weapon, difficulty)
 end
 
 function ISShotgunWeapon:fireShot(weapon, difficulty)
+	print("Pow!")
 	self.roundChambered = 0;
 	self.emptyShellChambered = 1;
 	self:syncReloadableToItem(weapon);
+end
+
+function ISReloadableWeapon:fireShot()
+	-- do nothing
+	print("ISReloadableWeapon:fireShot")
 end
 
 --************************************************************************--
