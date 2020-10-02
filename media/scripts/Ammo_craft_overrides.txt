@@ -11,6 +11,7 @@ module Base
         DisplayName	=	9mm Rounds,
         Icon	=	9mm_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item Bullets9mmBox
@@ -21,6 +22,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	HandgunAmmoBox,
         MetalValue = 30,
+				StaticModel = Ammobox,
     }
 
     item 9mmClip
@@ -29,7 +31,7 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	9mm Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	9mm_Mag,
         MaxAmmo = 15,
         AmmoType = Base.Bullets9mm,
         StaticModel = GunMagazine,
@@ -44,6 +46,7 @@ module Base
         DisplayName	=	.45 Auto,
         Icon	=	45_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item Bullets45Box
@@ -54,6 +57,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	HandgunAmmoBox,
         MetalValue = 30,
+				StaticModel = Ammobox,
     }
 
     item 45Clip
@@ -62,7 +66,7 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	.45 Auto Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	45_Mag,
         MaxAmmo = 7,
         AmmoType = Base.Bullets45,
         StaticModel = GunMagazine,
@@ -77,6 +81,7 @@ module Base
         DisplayName	=	.44 Magnum Bullets,
         Icon	=	45_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item Bullets44Box
@@ -87,6 +92,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	HandgunAmmoBox,
         MetalValue = 30,
+				StaticModel = Ammobox,
     }
 
     item 44Clip
@@ -95,7 +101,7 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	.44 Magnum Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	44_Mag,
         MaxAmmo = 8,
         AmmoType = Base.Bullets44,
         StaticModel = GunMagazine,
@@ -110,6 +116,7 @@ module Base
         DisplayName	=	.38 Special Bullets,
         Icon	=	38_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item Bullets38Box
@@ -120,6 +127,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	HandgunAmmoBox,
         MetalValue = 30,
+				StaticModel = Ammobox,
     }
 
 	item ShotgunShells
@@ -142,6 +150,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	ShotgunAmmoBox,
         MetalValue = 24,
+				StaticModel = Ammobox,
     }
 
 	item 223Bullets
@@ -152,8 +161,9 @@ module Base
         Type	=	Normal,
         DisplayName	=	.223 Ammo,
         DisplayCategory = Ammo,
-        Icon	=	RifleAmmo223loose,
+        Icon	=	308_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item 223Box
@@ -165,6 +175,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	RifleAmmo223,
         MetalValue = 40,
+				StaticModel = Ammobox,
     }
 
     item 223Clip
@@ -173,7 +184,7 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	.223 Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	308_Mag,
         MaxAmmo = 3,
         AmmoType = Base.223Bullets,
         StaticModel = GunMagazine,
@@ -187,8 +198,9 @@ module Base
         Type	=	Normal,
         DisplayName	=	.308 Ammo,
         DisplayCategory = Ammo,
-        Icon	=	RifleAmmo308loose,
+        Icon	=	308_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item 308Box
@@ -200,6 +212,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	RifleAmmo308,
         MetalValue = 40,
+				StaticModel = Ammobox,
     }
 
     item 308Clip
@@ -208,7 +221,7 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	.308 Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	308_Mag,
         MaxAmmo = 3,
         AmmoType = Base.308Bullets,
         StaticModel = GunMagazine,
@@ -222,8 +235,9 @@ module Base
         Type	=	Normal,
         DisplayName	=	.556 Ammo,
         DisplayCategory = Ammo,
-        Icon	=	RifleAmmo308loose,
+        Icon	=	308_Round,
         MetalValue = 1,
+				StaticModel = Bullet,
     }
 
     item 556Box
@@ -235,6 +249,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	RifleAmmo308,
         MetalValue = 40,
+				StaticModel = Ammobox,
     }
 
     item 556Clip
@@ -242,11 +257,11 @@ module Base
         CanStack	=	FALSE,
         Weight	=	0.2,
         Type	=	Normal,
-        DisplayName	=	.556 Magazine,
-        Icon	=	BerettaClip,
+        DisplayName	=	5.56 STANAG,
+        Icon	=	556_Stanag_Mag,
         MaxAmmo = 30,
         AmmoType = Base.556Bullets,
-        StaticModel = GunMagazine,
+        StaticModel = 556_Mag,
     }
 
     item M14Clip
@@ -255,170 +270,10 @@ module Base
         Weight	=	0.2,
         Type	=	Normal,
         DisplayName	=	.308 Magazine,
-        Icon	=	BerettaClip,
+        Icon	=	308_Mag2,
         MaxAmmo = 20,
         AmmoType = Base.308Bullets,
         StaticModel = GunMagazine,
-    }
-
-		recipe Open Box of 9mm Bullets
-    {
-        Bullets9mmBox,
-
-        Result:Bullets9mm=6,
-        Sound:PutItemInBag,
-        Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .45 Auto Bullets
-    {
-        Bullets45Box,
-
-        Result:Bullets45=6,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .38 Special Bullets
-    {
-        Bullets38Box,
-
-        Result:Bullets38=6,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .44 Magnum Bullets
-    {
-        Bullets44Box,
-
-        Result:Bullets44=4,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .223 Ammo
-    {
-        223Box,
-
-        Result:223Bullets=8,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .308 Ammo
-    {
-        308Box,
-
-        Result:308Bullets=8,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of Shotgun Shells
-    {
-        ShotgunShellsBox,
-
-        Result:ShotgunShells=4,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Open Box of .556 Ammo
-    {
-        556Box,
-
-        Result:556Bullets=12,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .556 Ammo in Box
-    {
-        556Bullets=60,
-
-        Result:556Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .223 Ammo in Box
-    {
-        223Bullets=40,
-
-        Result:223Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .308 Ammo in Box
-    {
-        308Bullets=40,
-
-        Result:308Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place 9mm Bullets in Box
-    {
-        Bullets9mm=30,
-
-        Result:Bullets9mmBox,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .45 Auto Bullets in Box
-    {
-        Bullets45=30,
-
-        Result:Bullets45Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .38 Speciam Bullets in Box
-    {
-        Bullets38=30,
-
-        Result:Bullets38Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place .44 Magnum Bullets in Box
-    {
-        Bullets44=12,
-
-        Result:Bullets44Box,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
-    }
-
-    recipe Place Shotgun Shells in Box
-    {
-        ShotgunShells=24,
-
-        Result:ShotgunShellsBox,
-        Sound:PutItemInBag,
-				Time:15.0,
-				Prop2:Ammobox,
     }
 
 	/************************Misc************************/
@@ -432,15 +287,6 @@ module Base
 			DisplayName	=	Gunpowder,
 			Icon	=	Gunpowder,
 			WeightEmpty = 0.01
-	}
-
-	item GunpowderJar
-	{
-			Weight	=	1,
-			UseDelta = 0.1,
-			UseWhileEquipped = FALSE,
-			DisplayName	=	Jar of Gunpowder,
-			Icon	=	GunpowderJar,
 	}
 
 }

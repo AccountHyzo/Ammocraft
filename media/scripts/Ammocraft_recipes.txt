@@ -257,58 +257,222 @@ module Ammocraft
 		/*                      Primers                        */
 		/*******************************************************/
 
+		/*	Casings	*/
+
+			recipe Insert Primer into 9mm Casing
+			{
+				Bullets9mm_casing_spent_noprimer,
+				SP_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:Bullets9mm_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into .45 Casing
+			{
+				Bullets45_casing_spent_noprimer,
+				LP_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:Bullets45_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into .44 Casing
+			{
+				Bullets44_casing_spent_noprimer,
+				LP_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:Bullets44_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into .38 Casing
+			{
+				Bullets38_casing_spent_noprimer,
+				SP_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:Bullets38_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into .308 Casing
+			{
+				308Bullets_casing_spent_noprimer,
+				R_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:308Bullets_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into .223 Casing
+			{
+				223Bullets_casing_spent_noprimer,
+				R_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:223Bullets_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into 5.56 Casing
+			{
+				556Bullets_casing_spent_noprimer,
+				R_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:556Bullets_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:Bullet,
+			}
+
+			recipe Insert Primer into Shotgun Shell
+			{
+				ShotgunShells_casing_spent_noprimer,
+				SG_Primers,
+
+				CanBeDoneFromFloor:true,
+				Result:ShotgunShells_casing,
+				Time:230.0,
+				Category:Ammunition,
+				Prop1:ShotgunShell,
+			}
+		recipe Remove Small Pistol Primer
+		{
+		Bullets9mm_casing/Bullets38_casing,
+		keep Screwdriver,
+		keep Hammer,
+
+		Result:SP_Primers,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
+		OnCreate:recipe_Remove_Primer,
+		}
+
+		recipe Remove Large Pistol Primer
+		{
+		Bullets45_casing/Bullets44_casing,
+		keep Screwdriver,
+		keep Hammer,
+
+		Result:LP_Primers,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
+		OnCreate:recipe_Remove_Primer,
+		}
+
+		recipe Remove Rifle Primer
+		{
+		308Bullets_casing/223Bullets_casing/556Bullets_casing,
+		keep Screwdriver,
+		keep Hammer,
+
+		Result:R_Primers,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
+		OnCreate:recipe_Remove_Primer,
+		}
+
+		recipe Remove Shotgun Shell Primer
+		{
+		ShotgunShells_casing,
+		keep Screwdriver,
+		keep Hammer,
+
+		Result:SG_Primers,
+		Time:50.0,
+		Category:Ammunition,
+		AnimNode:Disassemble,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
+		OnCreate:recipe_Remove_Primer,
+		}
+
 		recipe Remove Spent Small Pistol Primer
 		{
 		Bullets9mm_casing_spent/Bullets38_casing_spent,
-		keep Nail/Screwdriver,
+		keep Screwdriver,
 		keep Hammer,
 
 		Result:SP_Primers_Spent,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
-		Prop1:Pliers,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Large Pistol Primer
 		{
 		Bullets45_casing_spent/Bullets44_casing_spent,
-		keep Nail/Screwdriver,
+		keep Screwdriver,
 		keep Hammer,
 
 		Result:LP_Primers_Spent,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
-		Prop1:Pliers,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Rifle Primer
 		{
 		308Bullets_casing_spent/223Bullets_casing_spent/556Bullets_casing_spent,
-		keep Nail/Screwdriver,
+		keep Screwdriver,
 		keep Hammer,
 
 		Result:R_Primers_Spent,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
-		Prop1:Pliers,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Shotgun Shell Primer
 		{
 		ShotgunShells_casing_spent,
-		keep Nail/Screwdriver,
+		keep Screwdriver,
 		keep Hammer,
 
 		Result:SG_Primers_Spent,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
-		Prop1:Pliers,
+		Prop1:Screwdriver,
+		Prop2:Bullet,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
+
+		/*	Reloading		*/
+
 		recipe Reload Small Pistol Primer
 		{
 			SP_Primers_Spent,
@@ -319,8 +483,8 @@ module Ammocraft
 			Result:SP_Primers,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
-			Prop2:Screwdriver,
+			Prop1:Screwdriver,
+			Prop2:Bullet,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Large Pistol Primer
@@ -333,8 +497,8 @@ module Ammocraft
 			Result:LP_Primers,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
-			Prop2:Screwdriver,
+			Prop1:Screwdriver,
+			Prop2:Bullet,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Rifle Primer
@@ -347,8 +511,8 @@ module Ammocraft
 			Result:R_Primers,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
-			Prop2:Screwdriver,
+			Prop1:Screwdriver,
+			Prop2:Bullet,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Shotgun Primer
@@ -361,8 +525,8 @@ module Ammocraft
 			Result:SG_Primers,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:ShotgunShells,
-			Prop2:Screwdriver,
+			Prop1:Screwdriver,
+			Prop2:ShotgunShells,
 			NeedToBeLearn:true,
 		}
 		/*******************************************************/
@@ -495,102 +659,6 @@ module Ammocraft
 			Prop2:Reloadingpress,
 			NeedToBeLearn:true,
 		}
-	/*	Casings	*/
-		recipe Insert Primer into 9mm Casing
-		{
-			Bullets9mm_casing_spent_noprimer,
-			SP_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:Bullets9mm_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into .45 Casing
-		{
-			Bullets45_casing_spent_noprimer,
-			LP_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:Bullets45_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into .44 Casing
-		{
-			Bullets44_casing_spent_noprimer,
-			LP_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:Bullets44_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into .38 Casing
-		{
-			Bullets38_casing_spent_noprimer,
-			SP_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:Bullets38_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into .308 Casing
-		{
-			308Bullets_casing_spent_noprimer,
-			R_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:308Bullets_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into .223 Casing
-		{
-			223Bullets_casing_spent_noprimer,
-			R_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:223Bullets_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into 5.56 Casing
-		{
-			556Bullets_casing_spent_noprimer,
-			R_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:556Bullets_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:Bullet,
-		}
-
-		recipe Insert Primer into Shotgun Shell
-		{
-			ShotgunShells_casing_spent_noprimer,
-			SG_Primers,
-
-			CanBeDoneFromFloor:true,
-			Result:ShotgunShells_casing,
-			Time:230.0,
-			Category:Ammunition,
-			Prop1:ShotgunShell,
-		}
 	/*******************************************************/
 	/*                    Dismantling                      */
 	/*******************************************************/
@@ -605,6 +673,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle .45 Round
@@ -618,6 +687,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle .44 Round
@@ -631,6 +701,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle .38 Super Round
@@ -644,6 +715,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle .223 Round
@@ -657,6 +729,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle .308 Round
@@ -670,6 +743,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle 5.56 Round
@@ -683,6 +757,7 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 
 	recipe Dismantle Shotgun Shell
@@ -696,13 +771,14 @@ module Ammocraft
 		AnimNode:Disassemble,
 		Prop1:Pliers,
 		OnCreate:recipe_Dismantle_Ammo,
+		NeedToBeLearn:true,
 	}
 	/*******************************************************/
 	/*                      Casting                        */
 	/*******************************************************/
 	recipe Cast 9mm Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 9mmBulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -712,14 +788,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-  SkillRequired:MetalAmmunition=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+  SkillRequired:MetalWelding=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast .45 Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 45BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -729,14 +805,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast .44 Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 44BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -746,14 +822,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast .38 Super Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 44BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -763,14 +839,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=2,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=2,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast .308 Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 308BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -780,14 +856,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=5,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast .223 Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 223BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -797,14 +873,14 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=5,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=5,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast 5.56 Bullet Tip
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep 556BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -813,15 +889,14 @@ module Ammocraft
 	Result:556Bullets_tip,
 	Time:200.0,
   Category:Welding,
-	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=6,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=6,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
 	NeedToBeLearn:true,
 	}
 
 	recipe Cast Shotgun Buckshot
 	{
-	lead,
+	Lead,
 	BlowTorch=1,
 	keep ShotgunShellsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
@@ -831,8 +906,8 @@ module Ammocraft
 	Time:200.0,
   Category:Welding,
 	AnimNode:Disassemble,
-	SkillRequired:MetalAmmunition=1,
-	OnGiveXP:Recipe.OnGiveXP.MetalAmmunition25,
+	SkillRequired:MetalWelding=1,
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
 	}
 
 }
