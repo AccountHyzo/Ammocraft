@@ -5,18 +5,6 @@ for i=0, items:size()-1 do
 		local ammo =  item:getType()
 		inv:AddItem("Ammocraft." .. ammo .. "_casing");
 		inv:AddItem("Ammocraft." .. ammo .. "_tip");
-		if item:getType() == "Bullets9mm" or ammo == "Bullets38" then
-		inv:AddItem("Ammocraft.SP_Primers");
-		end
-		if item:getType() == "Bullets44" or ammo == "Bullets45" then
-		inv:AddItem("Ammocraft.LP_Primers");
-		end
-		if ammo == "223Bullets" or ammo == "308Bullets" or ammo == "556Bullets" then
-		inv:AddItem("Ammocraft.R_Primers");
-		end
-		if ammo == "ShotgunShells" then
-		inv:AddItem("Ammocraft.SG_Primers");
-		end
 	end
 end
 
@@ -32,7 +20,20 @@ function recipe_Remove_Primer(items, result, player)
 local inv = player:getInventory();
 for i=0, items:size()-1 do
 		local item = items:get(i)
-		inv:AddItem("Ammocraft." .. item:getType() .. "_spent_noprimer");
+		local ammo =  item:getType()
+		inv:AddItem("Ammocraft." .. ammo .. "_spent_noprimer");
+		if item:getType() == "Bullets9mm" or ammo == "Bullets38" then
+		inv:AddItem("Ammocraft.SP_Primers");
+		end
+		if item:getType() == "Bullets44" or ammo == "Bullets45" then
+		inv:AddItem("Ammocraft.LP_Primers");
+		end
+		if ammo == "223Bullets" or ammo == "308Bullets" or ammo == "556Bullets" then
+		inv:AddItem("Ammocraft.R_Primers");
+		end
+		if ammo == "ShotgunShells" then
+		inv:AddItem("Ammocraft.SG_Primers");
+		end
 	end
 end
 

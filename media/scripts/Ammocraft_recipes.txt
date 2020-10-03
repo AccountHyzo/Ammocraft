@@ -552,7 +552,7 @@ module Ammocraft
 		{
 			Bullets45_casing,
 			Bullets45_tip,
-			GunPowder=12,
+			GunPowder=13,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -568,7 +568,7 @@ module Ammocraft
 		{
 			Bullets44_casing,
 			Bullets44_tip,
-			GunPowder=12,
+			GunPowder=13,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -616,7 +616,7 @@ module Ammocraft
 		{
 			223Bullets_casing,
 			223Bullets_tip,
-			GunPowder=18,
+			GunPowder=16,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -632,7 +632,7 @@ module Ammocraft
 		{
 			556Bullets_casing,
 			556Bullets_tip,
-			GunPowder=20,
+			GunPowder=16,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -648,7 +648,7 @@ module Ammocraft
 		{
 			ShotgunShells_casing,
 			ShotgunShells_tip,
-			GunPowder=24,
+			GunPowder=20,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -751,7 +751,7 @@ module Ammocraft
 		556Bullets,
 		keep Pliers,
 
-		Result:GunPowder=2,
+		Result:GunPowder=1,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
@@ -765,7 +765,7 @@ module Ammocraft
 		ShotgunShells,
 		keep Pliers,
 
-		Result:GunPowder=2,
+		Result:GunPowder=1,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
@@ -910,4 +910,29 @@ module Ammocraft
 	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
 	}
 
+	/*******************************************************/
+	/*                      Survival                       */
+	/*******************************************************/
+
+	recipe Create Homemade Gunpowder
+	{
+	Charcoal=1,
+	CompostBag=1,
+	SharpedStone=1
+
+	CanBeDoneFromFloor:true,
+	Result:Gunpowder=1,
+	}
+
+	recipe Saw Lead Pipe into Lead Pieces
+	{
+	LeadPipe,
+	keep Saw/GardenSaw,
+
+	CanBeDoneFromFloor:false,
+	Result:Lead=20,
+	AnimNode:SawLog,
+	Prop1:Hacksaw,
+	Prop2:LeadPipe,
+	}
 }
