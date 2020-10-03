@@ -917,11 +917,25 @@ module Ammocraft
 	recipe Create Homemade Gunpowder
 	{
 	Charcoal=1,
-	CompostBag=1,
-	SharpedStone=1
+	Saltpeter=4,
+	Sulfur=1,
+	keep MortarPestle,
 
 	CanBeDoneFromFloor:true,
-	Result:GunPowder=1,
+	Result:GunPowder=5,
+	Time:200.0,
+	NeedToBeLearn:true,
+	}
+
+	recipe Make Saltpeter
+	{
+	Coldpack,
+	Water=1,
+
+	CanBeDoneFromFloor:true,
+	Result:Saltpeter,
+	Time:200.0,
+	NeedToBeLearn:true,
 	}
 
 	recipe Saw Lead Pipe into Lead Pieces
@@ -931,6 +945,7 @@ module Ammocraft
 
 	CanBeDoneFromFloor:false,
 	Result:Lead=20,
+	Time:200.0,
 	AnimNode:SawLog,
 	Prop1:Hacksaw,
 	Prop2:LeadPipe,

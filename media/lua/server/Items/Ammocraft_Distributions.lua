@@ -794,6 +794,8 @@ local distributionTable = {
             "Ammocraft.223BulletsMold",0.5 ,
             "Ammocraft.556BulletsMold", 0.1,
             "Ammocraft.ShotgunShellsMold", 2,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             },
 
             junk = {
@@ -1659,6 +1661,8 @@ local distributionTable = {
             "Ammocraft.223BulletsMold",0.5 ,
             "Ammocraft.556BulletsMold", 0.1,
             "Ammocraft.ShotgunShellsMold", 2,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             },
         },
     },
@@ -1673,6 +1677,8 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             },
         },
     },
@@ -1758,6 +1764,8 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             },
         },
     },
@@ -1771,6 +1779,8 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 0.1,
             "Ammocraft.GunnutMonthly4", 0.05,
             "Ammocraft.GunnutMonthly5", 0.01,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             }
         },
 
@@ -1782,6 +1792,8 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             }
         },
     },
@@ -1822,6 +1834,8 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.Saltpeter", 2,
+            "Ammocraft.Sulfur", 2,
             }
         },
 
@@ -2007,6 +2021,8 @@ local distributionTable = {
 
             items = {
             "Ammocraft.Pliers", 4,
+            "Ammocraft.Saltpeter", 50,
+            "Ammocraft.Sulfur", 50,
             }
         },
     },

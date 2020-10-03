@@ -53,7 +53,7 @@ module Ammocraft
 		Icon	=	GunnutMonthly4,
 		Weight	=	0.15,
 		Type	=	Literature,
-		TeachedRecipes =   Make .44 Round;Make .38 Super Round;Dismantle .44 Round;Dismantle .38 Round,
+		TeachedRecipes =   Make .44 Round;Make .38 Super Round;Dismantle .44 Round;Dismantle .38 Super Round,
 		ReplaceOnUse    =   GunnutMonthly4,
 		StaticModel = Magazine,
 	}
@@ -79,7 +79,7 @@ module Ammocraft
 		Icon	=	GunnutMonthly5,
 		Weight	=	0.15,
 		Type	=	Literature,
-		TeachedRecipes =   Reload Small Pistol Primer;Reload Large Pistol Primer;Reload Rifle Primer;Reload Shotgun Primer,
+		TeachedRecipes =   Reload Small Pistol Primer;Reload Large Pistol Primer;Reload Rifle Primer;Reload Shotgun Primer;Create Homemade Gunpowder;Make Saltpeter,
 		ReplaceOnUse    =   GunnutMonthly5,
 		StaticModel = Magazine,
 	}

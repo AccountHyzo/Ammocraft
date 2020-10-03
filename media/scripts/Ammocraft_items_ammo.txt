@@ -195,6 +195,7 @@ module Ammocraft
 		DisplayName	=	Jar of Gunpowder,
 		Icon	=	GunpowderJar,
 	}
+
 	/**************************************************************/
 	/*                       Casings & Tips                       */
 	/**************************************************************/
@@ -599,6 +600,28 @@ module Ammocraft
 			DisplayName	= Lead,
 			Icon = MetalBits,
 			MetalValue = 15,
+	}
+
+	item Saltpeter
+	{
+			Weight	=	0.1,
+			Type	=	Drainable,
+			UseDelta = 0.1,
+			UseWhileEquipped = FALSE,
+			DisplayName	=	Saltpeter,
+			Icon	=	Gunpowder,
+			WeightEmpty = 0.01
+	}
+
+	item Sulfur
+	{
+			Weight	=	0.1,
+			Type	=	Drainable,
+			UseDelta = 0.1,
+			UseWhileEquipped = FALSE,
+			DisplayName	=	Elemental Sulfur,
+			Icon	=	Sulfur,
+			WeightEmpty = 0.01
 	}
 
 }
