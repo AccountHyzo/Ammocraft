@@ -103,7 +103,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open 9mm Bullet Tip  Box
+		recipe Open Box of 9mm Bullets Tips
 		{
 			Bullets9mm_tipbox,
 
@@ -115,7 +115,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open .45 Bullet Tip  Box
+		recipe Open Box of .45 Bullets Tips
 		{
 			Bullets45_tipbox,
 
@@ -127,7 +127,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open .38 Bullet Tip  Box
+		recipe Open Box of .38 Bullets Tips
 		{
 			Bullets38_tipbox,
 
@@ -139,7 +139,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open .44 Bullet Tip  Box
+		recipe Open Box of .44 Bullets Tips
 		{
 			Bullets44_tipbox,
 
@@ -151,7 +151,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open .308 Bullet Tip  Box
+		recipe Open Box of .308 Bullets Tips
 		{
 			308Bullets_tipbox,
 
@@ -163,7 +163,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open .223 Bullet Tip  Box
+		recipe Open Box of .223 Bullets Tips
 		{
 			223Bullets_tipbox,
 
@@ -175,7 +175,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open 5.56 Bullet Tip  Box
+		recipe Open Box of 5.56 Bullets Tips
 		{
 			556Bullets_tipbox,
 
@@ -187,7 +187,7 @@ module Ammocraft
 			Prop2:Ammobox,
 		}
 
-		recipe Open Shotgun Buckshot  Box
+		recipe Open Jar of Buckshot
 		{
 			ShotgunShells_tipbox,
 
@@ -917,7 +917,7 @@ module Ammocraft
 	recipe Create Homemade Gunpowder
 	{
 	Charcoal=1,
-	Saltpeter=4,
+	Saltpeter/Fertilizer=4,
 	Sulfur=1,
 	keep MortarPestle,
 
