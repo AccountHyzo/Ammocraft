@@ -385,7 +385,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	=	.223 Bullet Casing,
-		Icon	=	308_Casing,
+		Icon	=	223_Casing,
         	MetalValue = 10,
 	}
 	item 223Bullets_casing_spent
@@ -394,7 +394,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	= Spent	.223 Bullet Casing,
-		Icon	=	308_Casing,
+		Icon	=	223_Casing,
 					MetalValue = 10,
 	}
 	item 223Bullets_casing_spent_noprimer
@@ -403,7 +403,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	=	.223 Bullet Casing without Primer,
-		Icon	=	308_Casing,
+		Icon	=	223_Casing,
 					MetalValue = 10,
 	}
 	item 223Bullets_tip
@@ -457,7 +457,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	=	Empty Shotgunshell,
-		Icon	=	ShotgunShells,
+		Icon	=	ShotgunShells_casing,
         	MetalValue = 10,
 	}
 	item ShotgunShells_casing_spent
@@ -466,7 +466,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	=	Spent Empty Shotgunshell,
-		Icon	=	ShotgunShells,
+		Icon	=	ShotgunShells_casing,
 					MetalValue = 10,
 	}
 	item ShotgunShells_casing_spent_noprimer
@@ -475,7 +475,7 @@ module Ammocraft
 		Weight	=	0.05,
 		Type	=	Normal,
 		DisplayName	=	Empty Shotgunshell without Primer,
-		Icon	=	ShotgunShells,
+		Icon	=	ShotgunShells_casing,
 					MetalValue = 10,
 	}
 	item ShotgunShells_tip
