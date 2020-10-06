@@ -53,7 +53,7 @@ module Ammocraft
 		Icon	=	GunnutMonthly4,
 		Weight	=	0.15,
 		Type	=	Literature,
-		TeachedRecipes =   Make .44 Round;Make .38 Super Round;Dismantle .44 Round;Dismantle .38 Super Round,
+		TeachedRecipes =   Make .44 Round;Make .38 Special Round;Dismantle .44 Round;Dismantle .38 Special Round,
 		ReplaceOnUse    =   GunnutMonthly4,
 		StaticModel = Magazine,
 	}
@@ -93,7 +93,7 @@ module Ammocraft
 		Icon	=	GunnutBible,
 		Weight	=	0.15,
 		Type	=	Literature,
-		TeachedRecipes =   Cast 9mm Bullet Tip;Cast .45 Bullet Tip;Cast .44 Bullet Tip;Cast .38 Super Bullet Tip;Cast .308 Bullet Tip;Cast .223 Bullet Tip;Cast 5.56 Bullet Tip,
+		TeachedRecipes =   Cast 9mm Bullet Tip;Cast .45 Bullet Tip;Cast .44 Bullet Tip;Cast .38 Special Bullet Tip;Cast .308 Bullet Tip;Cast .223 Bullet Tip;Cast 5.56 Bullet Tip,
 		ReplaceOnUse    =   GunnutBible,
 		StaticModel = Book,
 	}

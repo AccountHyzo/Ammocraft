@@ -1,0 +1,27 @@
+
+Tooltip_EN = {
+  /*Tools*/
+  Tooltip_Reloader = "Tool used to make rounds of ammo."
+  Tooltip_Pliers = "Can be used to dismantle ammunition."
+  /*Boxes*/
+  Tooltip_BoxCasings = "50 Casings.",
+  Tooltip_BoxTips = "50 Bullets tips.",
+  Tooltip_BoxShells = "50 Empty Shotgun Shells.",
+  Tooltip_BuckshotJar = "Enough buckshot for 50 Shotgun Shells!",
+  Tooltip_BoxSPPrimers = "100 Primers for 9mm or .38 Special rounds.",
+  Tooltip_BoxLPPrimers = "100 Primers for .45 or .44 rounds.",
+  Tooltip_BoxRPrimers = "100 Primers for 5.56, .308 or .223 rounds.",
+  Tooltip_BuckSGPrimers = "100 Primers for Shotgun Shells.",
+  /*Casings*/
+	Tooltip_Casing = "Used to craft a round of ammo.",
+  Tooltip_CasingSpent = "Needs a new primer.",
+  /*Primers*/
+  Tooltip_SP_Primer = "Can be used with 9mm or .38 Special Casings.",
+  Tooltip_LP_Primer = "Can be used with .45 or .44 Casings.",
+  Tooltip_R_Primer = "Can be used with 5.56, .223 or .308 Casings.",
+  Tooltip_SG_Primer = "Can only be used in Shotgun Shells.",
+  Tooltip_PrimerSpent = "Needs to be reloaded.",
+  /*Misc*/
+  Tooltip_BulletIngredient = "Can be used to cast bullet tips.",
+  Tooltip_GunpowderIngredient = "Used in the creation of gunpowder.",
+}

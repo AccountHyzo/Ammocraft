@@ -15,6 +15,7 @@ module Ammocraft
 		DisplayName	=	Box of 9mm Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item Bullets45_casingbox
 	{
@@ -24,6 +25,7 @@ module Ammocraft
 		DisplayName	=	Box of .45 Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item Bullets44_casingbox
 	{
@@ -33,15 +35,17 @@ module Ammocraft
 		DisplayName	=	Box of .44 Bullet Casings,
 		Icon	= Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item Bullets38_casingbox
 	{
 		CanStack	=	FALSE,
 		Weight	=	0.5,
 		Type	=	Normal,
-		DisplayName	=	Box of .38 Bullet Casings,
+		DisplayName	=	Box of .38 Special Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item 308Bullets_casingbox
 	{
@@ -51,6 +55,7 @@ module Ammocraft
 		DisplayName	=	Box of .308 Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item 223Bullets_casingbox
 	{
@@ -60,6 +65,7 @@ module Ammocraft
 		DisplayName	=	Box of .223 Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item 556Bullets_casingbox
 	{
@@ -69,6 +75,7 @@ module Ammocraft
 		DisplayName	=	Box of 5.56 Bullet Casings,
 		Icon	=	Ammobox_Casings,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxCasings,
 	}
 	item ShotgunShells_casingbox
 	{
@@ -78,6 +85,7 @@ module Ammocraft
 		DisplayName	=	Box of Empty Shotgun Shells,
 		Icon	=	Ammobox_Shotgun,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxShells,
 	}
 	item Bullets9mm_tipbox
 	{
@@ -87,6 +95,7 @@ module Ammocraft
 		DisplayName	=	Box of 9mm Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item Bullets45_tipbox
 	{
@@ -96,6 +105,7 @@ module Ammocraft
 		DisplayName	=	Box of .45 Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item Bullets44_tipbox
 	{
@@ -105,15 +115,17 @@ module Ammocraft
 		DisplayName	=	Box of .44 Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item Bullets38_tipbox
 	{
 		CanStack	=	FALSE,
 		Weight	=	0.5,
 		Type	=	Normal,
-		DisplayName	=	Box of .38 Bullet Tips,
+		DisplayName	=	Box of .38 Special Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item 308Bullets_tipbox
 	{
@@ -123,6 +135,7 @@ module Ammocraft
 		DisplayName	=	Box of .308 Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item 223Bullets_tipbox
 	{
@@ -132,6 +145,7 @@ module Ammocraft
 		DisplayName	=	Box of .223 Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item 556Bullets_tipbox
 	{
@@ -141,6 +155,7 @@ module Ammocraft
 		DisplayName	=	Box of 5.56 Bullet Tips,
 		Icon	=	Ammobox_Tips,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxTips,
 	}
 	item ShotgunShells_tipbox
 	{
@@ -150,6 +165,7 @@ module Ammocraft
 		DisplayName	=	Jar of Shotgun Buckshot,
 		Icon	=	GunpowderJar,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BuckshotJar,
 	}
 	item SP_Primers_box
 	{
@@ -159,6 +175,7 @@ module Ammocraft
 		DisplayName	=	Box of Small Pistol Primers,
 		Icon	=	Ammobox_Primers,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxSPPrimers,
 	}
 	item LP_Primers_box
 	{
@@ -168,6 +185,7 @@ module Ammocraft
 		DisplayName	=	Box of Large Pistol Primers,
 		Icon	=	Ammobox_Primers,
 		StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxLPPrimers,
 	}
 	item R_Primers_box
 	{
@@ -177,6 +195,7 @@ module Ammocraft
 		DisplayName	=	Box of Rifle Primers,
 		Icon	= Ammobox_Primers,
     StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxRPrimers,
 	}
 	item SG_Primers_box
 	{
@@ -186,6 +205,7 @@ module Ammocraft
 		DisplayName	=	Box of Shotgun Primers,
 		Icon	=	Ammobox_Primers,
     StaticModel = Ammobox,
+		Tooltip = Tooltip_BoxSGPrimers,
 	}
 	item GunpowderJar
 	{
@@ -194,6 +214,7 @@ module Ammocraft
 		UseWhileEquipped = FALSE,
 		DisplayName	=	Jar of Gunpowder,
 		Icon	=	GunpowderJar,
+		Tooltip = Tooltip_GunpowderJar,
 	}
 
 	/**************************************************************/
@@ -202,29 +223,34 @@ module Ammocraft
 	item Bullets9mm_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
 		DisplayName	=	9mm Bullet Casing,
 		Icon	=	9mm_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_Casing,
 	}
 	item Bullets9mm_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
 		DisplayName	=	Spent 9mm Bullet Casing,
 		Icon	=	9mm_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item Bullets9mm_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
 		DisplayName	=	9mm Bullet Casing without Primer,
 		Icon	=	9mm_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item Bullets9mm_tip
 	{
@@ -233,34 +259,41 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	9mm Bullet,
 		Icon	=	9mm_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item Bullets45_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.45 Bullet Casing,
 		Icon	=	45_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_Casing,
 	}
 	item Bullets45_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	Spent .45 Bullet Casing,
 		Icon	=	45_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item Bullets45_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.45 Bullet Casing without Primer,
 		Icon	=	45_Casing,
-					MetalValue = 10,
+	  MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item Bullets45_tip
 	{
@@ -269,34 +302,41 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	.45 Bullet,
 		Icon	=	45_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item Bullets44_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.44 Bullet Casing,
 		Icon	=	45_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_Casing,
 	}
 	item Bullets44_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	= Spent	.44 Bullet Casing,
 		Icon	=	45_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item Bullets44_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.44 Bullet Casing without Primer,
 		Icon	=	45_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item Bullets44_tip
 	{
@@ -305,70 +345,84 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	.44 Bullet,
 		Icon	=	45_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item Bullets38_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
-		DisplayName	=	.38 Super Bullet Casing,
+		DisplayName	=	.38 Special Bullet Casing,
 		Icon	=	38_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_Casing,
 	}
 	item Bullets38_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
-		DisplayName	= Spent	.38 Bullet Casing,
+		DisplayName	= Spent	.38 Special Bullet Casing,
 		Icon	=	38_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item Bullets38_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.01,
 		Type	=	Normal,
-		DisplayName	=	.38 Bullet Casing without Primer,
+		DisplayName	=	.38 Special Bullet Casing without Primer,
 		Icon	=	38_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = Bullet,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item Bullets38_tip
 	{
 		CanStack	=	TRUE,
 		Weight	=	0.01,
 		Type	=	Normal,
-		DisplayName	=	.38 Super Bullet,
+		DisplayName	=	.38 Special Bullet,
 		Icon	=	38_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item 308Bullets_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.308 Bullet Casing,
 		Icon	=	308_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_Casing,
 	}
 	item 308Bullets_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	= Spent	.308 Bullet Casing,
 		Icon	=	308_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item 308Bullets_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.308 Bullet Casing without Primer,
 		Icon	=	308_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item 308Bullets_tip
 	{
@@ -377,34 +431,41 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	.308 Bullet,
 		Icon	=	38_Bullet,
-					MetalValue = 5,
+		MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item 223Bullets_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.223 Bullet Casing,
 		Icon	=	223_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_Casing,
 	}
 	item 223Bullets_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	= Spent	.223 Bullet Casing,
 		Icon	=	223_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item 223Bullets_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.015,
 		Type	=	Normal,
 		DisplayName	=	.223 Bullet Casing without Primer,
 		Icon	=	223_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item 223Bullets_tip
 	{
@@ -413,34 +474,41 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	.223 Bullet,
 		Icon	=	9mm_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item 556Bullets_casing
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.02,
 		Type	=	Normal,
 		DisplayName	=	5.56 Bullet Casing,
 		Icon	=	308_Casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_Casing,
 	}
 	item 556Bullets_casing_spent
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.02,
 		Type	=	Normal,
 		DisplayName	= Spent	5.56 Bullet Casing,
 		Icon	=	308_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item 556Bullets_casing_spent_noprimer
 	{
 		CanStack	=	TRUE,
-		Weight	=	0.05,
+		Weight	=	0.02,
 		Type	=	Normal,
 		DisplayName	=	5.56 Bullet Casing without Primer,
 		Icon	=	308_Casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = RifleBullet_Casing,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item 556Bullets_tip
 	{
@@ -449,7 +517,8 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	5.56 Bullet,
 		Icon	=	9mm_Bullet,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = Bullet,
 	}
 	item ShotgunShells_casing
 	{
@@ -458,7 +527,9 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Empty Shotgunshell,
 		Icon	=	ShotgunShells_casing,
-        	MetalValue = 10,
+    MetalValue = 10,
+		StaticModel = ShotgunShell,
+		Tooltip = Tooltip_Casing,
 	}
 	item ShotgunShells_casing_spent
 	{
@@ -467,7 +538,9 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Spent Empty Shotgunshell,
 		Icon	=	ShotgunShells_casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = ShotgunShell,
+		Tooltip = Tooltip_CasingSpent,
 	}
 	item ShotgunShells_casing_spent_noprimer
 	{
@@ -476,7 +549,9 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Empty Shotgunshell without Primer,
 		Icon	=	ShotgunShells_casing,
-					MetalValue = 10,
+		MetalValue = 10,
+		StaticModel = ShotgunShell,
+		Tooltip = Tooltip_CasingEmpty,
 	}
 	item ShotgunShells_tip
 	{
@@ -485,7 +560,8 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Shotgun buckshot,
 		Icon	=	ShotgunShells_Buckshot,
-        	MetalValue = 5,
+    MetalValue = 5,
+		StaticModel = ShotgunShell,
 	}
 	/*******************************************************/
 	/*                      Primers                        */
@@ -497,6 +573,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Small Pistol Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_SP_Primer,
 	}
 	item LP_Primers
 	{
@@ -505,6 +582,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Large Pistol Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_LP_Primer,
 	}
 	item R_Primers
 	{
@@ -513,6 +591,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Rifle Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_R_Primer,
 	}
 	item SG_Primers
 	{
@@ -521,6 +600,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Shotgun Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_SG_Primer,
 	}
 	item SP_Primers_Spent
 	{
@@ -529,6 +609,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	= Spent	Small Pistol Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_PrimerSpent,
 	}
 	item LP_Primers_Spent
 	{
@@ -537,6 +618,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Spent Large Pistol Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_PrimerSpent,
 	}
 	item R_Primers_Spent
 	{
@@ -545,6 +627,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Spent Rifle Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_PrimerSpent,
 	}
 	item SG_Primers_Spent
 	{
@@ -553,6 +636,7 @@ module Ammocraft
 		Type	=	Normal,
 		DisplayName	=	Spent Shotgun Primer,
 		Icon	=	Primer,
+		Tooltip = Tooltip_PrimerSpent,
 	}
 	/*****************************************************/
 	/*                       Molds                       */
@@ -564,6 +648,7 @@ module Ammocraft
 			DisplayName	= .45 Bullets Mold,
 			Icon = BulletMold,
 			MetalValue = 15,
+			Tooltip = Tooltip_BulletIngredient,
 	}
 
 	item 44BulletsMold
@@ -573,15 +658,17 @@ module Ammocraft
 			DisplayName	= .44 Bullets Mold,
 			Icon = BulletMold,
 			MetalValue = 15,
+			Tooltip = Tooltip_BulletIngredient,
 	}
 
 	item 38BulletsMold
 	{
 			Weight = 0.5,
 			Type = Normal,
-			DisplayName	= .38 Super Bullets Mold,
+			DisplayName	= .38 Special Bullets Mold,
 			Icon = BulletMold,
 			MetalValue = 15,
+			Tooltip = Tooltip_BulletIngredient,
 	}
 
 	item 556BulletsMold
@@ -591,6 +678,7 @@ module Ammocraft
 			DisplayName	= 5.56 Bullets Mold,
 			Icon = BulletMold,
 			MetalValue = 15,
+			Tooltip = Tooltip_BulletIngredient,
 	}
 
 	item Lead
@@ -600,6 +688,7 @@ module Ammocraft
 			DisplayName	= Lead,
 			Icon = MetalBits,
 			MetalValue = 15,
+			Tooltip = Tooltip_BulletIngredient,
 	}
 
 	item Saltpeter
@@ -611,6 +700,7 @@ module Ammocraft
 			DisplayName	=	Saltpeter,
 			Icon	=	Gunpowder,
 			WeightEmpty = 0.01
+			Tooltip = Tooltip_GunpowderIngredient,
 	}
 
 	item Sulfur
@@ -622,6 +712,7 @@ module Ammocraft
 			DisplayName	=	Elemental Sulfur,
 			Icon	=	Sulfur,
 			WeightEmpty = 0.01
+			Tooltip = Tooltip_GunpowderIngredient,
 	}
 
 }

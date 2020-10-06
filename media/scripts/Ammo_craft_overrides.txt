@@ -163,7 +163,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	308_Round,
         MetalValue = 1,
-				StaticModel = Bullet,
+				StaticModel = RifleBullet,
     }
 
     item 223Box
@@ -200,7 +200,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	308_Round,
         MetalValue = 1,
-				StaticModel = Bullet,
+				StaticModel = RifleBullet,
     }
 
     item 308Box
@@ -237,7 +237,7 @@ module Base
         DisplayCategory = Ammo,
         Icon	=	308_Round,
         MetalValue = 1,
-				StaticModel = Bullet,
+				StaticModel = RifleBullet,
     }
 
     item 556Box
@@ -288,5 +288,24 @@ module Base
 			Icon	=	Gunpowder,
 			WeightEmpty = 0.01
 	}
+
+	item Sparklers
+	{
+			Weight	=	0.2,
+			Type	=	Drainable,
+			UseDelta = 0.1,
+			DisplayName	=	Box of Sparklers,
+			Icon	=	Sparklers,
+	}
+
+	recipe Gather Gunpowder
+	{
+	 Bullets9mm/ShotgunShells/223Bullets/308Bullets/556Bullets/Bullets44/Bullets45/Bullets38,
+
+	 Result:GunPowder,
+	 Time:100.0,
+	 OnCreate:recipe_Gather_Gunpowder,
+	 Override:true,
+	 }
 
 }

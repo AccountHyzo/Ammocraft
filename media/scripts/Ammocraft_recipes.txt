@@ -15,7 +15,7 @@ module Ammocraft
 			Result:Bullets9mm_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:Bullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -27,7 +27,7 @@ module Ammocraft
 			Result:Bullets45_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:Bullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -39,7 +39,7 @@ module Ammocraft
 			Result:Bullets38_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:Bullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -51,7 +51,7 @@ module Ammocraft
 			Result:Bullets44_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:Bullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -63,7 +63,7 @@ module Ammocraft
 			Result:308Bullets_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -75,7 +75,7 @@ module Ammocraft
 			Result:223Bullets_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -87,7 +87,7 @@ module Ammocraft
 			Result:556Bullets_casing=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet_Casing,
 			Prop2:Ammobox,
 		}
 
@@ -159,7 +159,7 @@ module Ammocraft
 			Result:308Bullets_tip=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Ammobox,
 		}
 
@@ -171,7 +171,7 @@ module Ammocraft
 			Result:223Bullets_tip=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Ammobox,
 		}
 
@@ -183,7 +183,7 @@ module Ammocraft
 			Result:556Bullets_tip=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Ammobox,
 		}
 
@@ -251,6 +251,18 @@ module Ammocraft
 			Result:GunPowder=10,
 			Sound:PutItemInBag,
 			Time:30.0,
+			OnCreate:recipe_Open_Jar_of_Gunpowder,
+		}
+
+		recipe Put Gunpowder in Jar
+		{
+			GunPowder=100,
+			EmptyJar,
+
+			CanBeDoneFromFloor:false,
+			Result:GunpowderJar=1,
+			Sound:PutItemInBag,
+			Time:50.0,
 		}
 
 		/*******************************************************/
@@ -268,7 +280,7 @@ module Ammocraft
 				Result:Bullets9mm_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:Bullet_Casing,
 			}
 
 			recipe Insert Primer into .45 Casing
@@ -280,7 +292,7 @@ module Ammocraft
 				Result:Bullets45_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:Bullet_Casing,
 			}
 
 			recipe Insert Primer into .44 Casing
@@ -292,7 +304,7 @@ module Ammocraft
 				Result:Bullets44_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:Bullet_Casing,
 			}
 
 			recipe Insert Primer into .38 Casing
@@ -304,7 +316,7 @@ module Ammocraft
 				Result:Bullets38_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:Bullet_Casing,
 			}
 
 			recipe Insert Primer into .308 Casing
@@ -316,7 +328,7 @@ module Ammocraft
 				Result:308Bullets_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:RifleBullet_Casing,
 			}
 
 			recipe Insert Primer into .223 Casing
@@ -328,7 +340,7 @@ module Ammocraft
 				Result:223Bullets_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:RifleBullet_Casing,
 			}
 
 			recipe Insert Primer into 5.56 Casing
@@ -340,7 +352,7 @@ module Ammocraft
 				Result:556Bullets_casing,
 				Time:230.0,
 				Category:Ammunition,
-				Prop1:Bullet,
+				Prop1:RifleBullet_Casing,
 			}
 
 			recipe Insert Primer into Shotgun Shell
@@ -365,7 +377,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:Bullet_Casing,
 		OnCreate:recipe_Remove_Primer,
 		}
 
@@ -380,7 +392,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:Bullet_Casing,
 		OnCreate:recipe_Remove_Primer,
 		}
 
@@ -395,7 +407,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:Bullet_Casing,
 		OnCreate:recipe_Remove_Primer,
 		}
 
@@ -410,7 +422,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:ShotgunShell,
 		OnCreate:recipe_Remove_Primer,
 		}
 
@@ -425,7 +437,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:Bullet_Casing,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Large Pistol Primer
@@ -439,7 +451,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:Bullet_Casing,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Rifle Primer
@@ -453,7 +465,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:RifleBullet_Casing,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 		recipe Remove Spent Shotgun Shell Primer
@@ -467,7 +479,7 @@ module Ammocraft
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Screwdriver,
-		Prop2:Bullet,
+		Prop2:ShotgunShell,
 		OnCreate:recipe_Remove_Spent_Primer,
 		}
 
@@ -476,7 +488,7 @@ module Ammocraft
 		recipe Reload Small Pistol Primer
 		{
 			SP_Primers_Spent,
-			GunPowder/Matches,
+			GunPowder/Matches/Sparklers,
 			keep Screwdriver,
 
 			CanBeDoneFromFloor:true,
@@ -484,13 +496,13 @@ module Ammocraft
 			Time:230.0,
 			Category:Ammunition,
 			Prop1:Screwdriver,
-			Prop2:Bullet,
+			Prop2:Bullet_Casing,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Large Pistol Primer
 		{
 			LP_Primers_Spent,
-			GunPowder/Matches=2,
+			GunPowder/Matches/Sparklers=2,
 			keep Screwdriver,
 
 			CanBeDoneFromFloor:true,
@@ -498,13 +510,13 @@ module Ammocraft
 			Time:230.0,
 			Category:Ammunition,
 			Prop1:Screwdriver,
-			Prop2:Bullet,
+			Prop2:Bullet_Casing,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Rifle Primer
 		{
 			R_Primers_Spent,
-			GunPowder/Matches=3,
+			GunPowder/Matches/Sparklers=3,
 			keep Screwdriver,
 
 			CanBeDoneFromFloor:true,
@@ -512,13 +524,13 @@ module Ammocraft
 			Time:230.0,
 			Category:Ammunition,
 			Prop1:Screwdriver,
-			Prop2:Bullet,
+			Prop2:RifleBullet_Casing,
 			NeedToBeLearn:true,
 		}
 		recipe Reload Shotgun Primer
 		{
 			SG_Primers_Spent,
-			GunPowder/Matches=2,
+			GunPowder/Matches/Sparklers=2,
 			keep Screwdriver,
 
 			CanBeDoneFromFloor:true,
@@ -536,7 +548,7 @@ module Ammocraft
 		{
 			Bullets9mm_casing,
 			Bullets9mm_tip,
-			GunPowder=12,
+			GunPowder=2,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -552,7 +564,7 @@ module Ammocraft
 		{
 			Bullets45_casing,
 			Bullets45_tip,
-			GunPowder=13,
+			GunPowder=3,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -568,7 +580,7 @@ module Ammocraft
 		{
 			Bullets44_casing,
 			Bullets44_tip,
-			GunPowder=13,
+			GunPowder=3,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -580,11 +592,11 @@ module Ammocraft
 			NeedToBeLearn:true,
 		}
 
-		recipe Make .38 Super Round
+		recipe Make .38 Special Round
 		{
 			Bullets38_casing,
 			Bullets38_tip,
-			GunPowder=12,
+			GunPowder=2,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -600,14 +612,14 @@ module Ammocraft
 		{
 			308Bullets_casing,
 			308Bullets_tip,
-			GunPowder=16,
+			GunPowder=5,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
 			Result:308Bullets,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Reloadingpress,
 			NeedToBeLearn:true,
 		}
@@ -616,14 +628,14 @@ module Ammocraft
 		{
 			223Bullets_casing,
 			223Bullets_tip,
-			GunPowder=16,
+			GunPowder=4,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
 			Result:223Bullets,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Reloadingpress,
 			NeedToBeLearn:true,
 		}
@@ -632,14 +644,14 @@ module Ammocraft
 		{
 			556Bullets_casing,
 			556Bullets_tip,
-			GunPowder=16,
+			GunPowder=5,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
 			Result:556Bullets,
 			Time:230.0,
 			Category:Ammunition,
-			Prop1:Bullet,
+			Prop1:RifleBullet,
 			Prop2:Reloadingpress,
 			NeedToBeLearn:true,
 		}
@@ -648,7 +660,7 @@ module Ammocraft
 		{
 			ShotgunShells_casing,
 			ShotgunShells_tip,
-			GunPowder=20,
+			GunPowder=6,
 			keep Reloadingpress,
 
 			CanBeDoneFromFloor:true,
@@ -667,11 +679,12 @@ module Ammocraft
 		Bullets9mm,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:Bullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -681,11 +694,12 @@ module Ammocraft
 		Bullets45,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:Bullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -695,25 +709,27 @@ module Ammocraft
 		Bullets44,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:Bullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
 
-	recipe Dismantle .38 Super Round
+	recipe Dismantle .38 Special Round
 	{
 		Bullets38,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:Bullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -723,11 +739,12 @@ module Ammocraft
 		223Bullets,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:RifleBullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -737,11 +754,12 @@ module Ammocraft
 		308Bullets,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:RifleBullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -751,11 +769,12 @@ module Ammocraft
 		556Bullets,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:RifleBullet,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -765,11 +784,12 @@ module Ammocraft
 		ShotgunShells,
 		keep Pliers,
 
-		Result:GunPowder=1,
+		Result:GunPowder,
 		Time:50.0,
 		Category:Ammunition,
 		AnimNode:Disassemble,
 		Prop1:Pliers,
+		Prop2:ShotgunShell,
 		OnCreate:recipe_Dismantle_Ammo,
 		NeedToBeLearn:true,
 	}
@@ -827,7 +847,7 @@ module Ammocraft
 	NeedToBeLearn:true,
 	}
 
-	recipe Cast .38 Super Bullet Tip
+	recipe Cast .38 Special Bullet Tip
 	{
 	Lead,
 	BlowTorch=1,
@@ -950,4 +970,5 @@ module Ammocraft
 	Prop1:Hacksaw,
 	Prop2:LeadPipe,
 	}
+
 }

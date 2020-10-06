@@ -38,8 +38,8 @@ module Ammocraft
 		MinDamage	=	0.5,
 		MaxDamage	=	1,
 		BaseSpeed = 1,
-	    	WeaponLength = 0.23,
-	    	AttachmentType = Reloadingpress,
+	  WeaponLength = 0.23,
+		Tooltip = Tooltip_Reloader,
 	}
 	item Pliers
 	{
@@ -75,6 +75,7 @@ module Ammocraft
 		BaseSpeed = 1,
 	    	WeaponLength = 0.23,
 	    	AttachmentType = Hammer,
+				Tooltip = Tooltip_Pliers,
 	}
 
 }

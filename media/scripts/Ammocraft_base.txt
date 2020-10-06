@@ -17,6 +17,21 @@ module Base
 		mesh = ammo/Bullet,
 	}
 
+	model Bullet_Casing
+	{
+		mesh = ammo/Bullet_Casing,
+	}
+
+	model RifleBullet
+	{
+		mesh = ammo/RifleBullet,
+	}
+
+	model RifleBullet_Casing
+	{
+		mesh = ammo/RifleBullet_Casing,
+	}
+
 	model ShotgunShell
 	{
 		mesh = ammo/ShotgunShells,

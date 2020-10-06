@@ -9,13 +9,13 @@ local function spawnCasing(wielder, weapon)
 	local weapon = weapon;
 	local gun = weapon:getType();
 
-	if weapon:getSubCategory() == "Firearm" and weapon:isRoundChambered() == true and weapon:isJammed() == false then
-		local gunAmmo, replaced = string.gsub(weapon:getAmmoType(), "Base.", "")
-		player:getCurrentSquare():AddWorldInventoryItem("Ammocraft." .. gunAmmo .. "_casing_spent", 0.0, 0.0, 0.0);
-	elseif gun == "Revolver_Short"  or gun == "Revolver" or gun == "Revolver_Long" or gun == "DoubleBarrelShotgun" then
-		local gunAmmo, replaced = string.gsub(weapon:getAmmoType(), "Base.", "")
-		if weapon:getSubCategory() == "Firearm" and weapon:getCurrentAmmoCount() > 0 and weapon:isJammed() == false then
-			player:getCurrentSquare():AddWorldInventoryItem("Ammocraft." .. gunAmmo .. "_casing_spent", 0.0, 0.0, 0.0);
+	if weapon:getSubCategory() == "Firearm" and weapon:isRoundChambered() == true and weapon:isJammed() == false then -- First check if we're talking about a gun and only then check if the gun has a round in the chamber and after that if it is jammed.
+		local gunAmmo, replaced = string.gsub(weapon:getAmmoType(), "Base.", "") -- Get the ammo by removing the module name
+		player:getCurrentSquare():AddWorldInventoryItem("Ammocraft." .. gunAmmo .. "_casing_spent", 0.0, 0.0, 0.0); -- Spawn  spent casing!
+	elseif gun == "Revolver_Short"  or gun == "Revolver" or gun == "Revolver_Long" or gun == "DoubleBarrelShotgun" then -- If instead we're talking about one of those guns that don't chamber their round(rats) then it goes here
+		local gunAmmo, replaced = string.gsub(weapon:getAmmoType(), "Base.", "") -- Again get the ammo
+		if weapon:getSubCategory() == "Firearm" and weapon:getCurrentAmmoCount() > 0 and weapon:isJammed() == false then -- Double check its a gun we're talking about that isn't dry firing and isn't jammed!
+			player:getCurrentSquare():AddWorldInventoryItem("Ammocraft." .. gunAmmo .. "_casing_spent", 0.0, 0.0, 0.0); -- Spawn casing
 		end
 	end
 end
