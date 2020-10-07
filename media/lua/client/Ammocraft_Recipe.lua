@@ -127,4 +127,5 @@ end
 function recipe_Open_Jar_of_Gunpowder(items, result, player)
 local inv = player:getInventory();
 inv:AddItem("EmptyJar");
+inv:AddItem("JarLid");
 end

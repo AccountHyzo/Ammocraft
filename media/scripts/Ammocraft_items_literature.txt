@@ -14,7 +14,7 @@ module Ammocraft
 		Icon	=	GunnutMonthly1,
 		Weight	=	0.15,
 		Type	=	Literature,
-		TeachedRecipes =   Make 9mm Round;Make .45 Round;Make .44 Round;Dismantle 9mm Round;Dismantle .45 Round;Dismantle .44 Round,
+		TeachedRecipes =   Make 9mm Round;Make .45 Round;Dismantle 9mm Round;Dismantle .45 Round,
 		ReplaceOnUse    =   GunnutMonthly1,
 		StaticModel = Magazine,
 	}
