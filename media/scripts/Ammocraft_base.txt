@@ -20,16 +20,19 @@ module Base
 	model Bullet_Casing
 	{
 		mesh = ammo/Bullet_Casing,
+		texture = ammo/Bullet,
 	}
 
 	model RifleBullet
 	{
 		mesh = ammo/RifleBullet,
+		texture = ammo/Bullet,
 	}
 
 	model RifleBullet_Casing
 	{
 		mesh = ammo/RifleBullet_Casing,
+		texture = ammo/Bullet,
 	}
 
 	model ShotgunShell

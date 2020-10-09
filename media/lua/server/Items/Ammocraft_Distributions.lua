@@ -50,7 +50,7 @@ local distributionTable = {
         {
 
             items = {
-                "Ammocraft.Pliers", 0.5,
+                "Ammocraft.Pliers", 0.15,
             }
         },
 
@@ -58,12 +58,7 @@ local distributionTable = {
         {
 
             items = {
-            "Ammocraft.Pliers", 0.25,
-            "Ammocraft.GunnutMonthly1", 0.5,
-            "Ammocraft.GunnutMonthly2", 0.5,
-            "Ammocraft.GunnutMonthly3", 0.4,
-            "Ammocraft.GunnutMonthly4", 0.3,
-            "Ammocraft.GunnutMonthly5", 0.1,
+            "Ammocraft.Pliers", 0.05,
             }
         }
     },
@@ -384,22 +379,12 @@ local distributionTable = {
             "Ammocraft.Bullets45_tip", 1,
             "Ammocraft.Bullets44_tip", 1,
             "Ammocraft.Bullets38_tip", 1,
-            "Ammocraft.GunnutMonthly1", 1,
-            "Ammocraft.GunnutMonthly2", 1,
-            "Ammocraft.GunnutMonthly3", 1,
-            "Ammocraft.GunnutMonthly4", 2,
-            "Ammocraft.GunnutMonthly5", 0.5,
             }
         },
         inventoryfemale = {
 
             items = {
             "Ammocraft.Pliers", 4,
-            "Ammocraft.GunnutMonthly1", 1,
-            "Ammocraft.GunnutMonthly2", 1,
-            "Ammocraft.GunnutMonthly3", 1,
-            "Ammocraft.GunnutMonthly4", 1,
-            "Ammocraft.GunnutMonthly5", 0.5,
             "Ammocraft.Bullets9mm_tip", 2,
             "Ammocraft.Bullets45_tip", 1,
             "Ammocraft.Bullets44_tip", 1,
