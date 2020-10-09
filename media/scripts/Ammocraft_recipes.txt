@@ -627,8 +627,8 @@ module Ammocraft
 
 		recipe Make .223 Round
 		{
-			223Bullets_casing,
-			223Bullets_tip,
+			223Bullets_casing/556Bullets_casing,
+			223Bullets_tip/556Bullets_tip,
 			GunPowder=4,
 			keep Reloadingpress,
 
@@ -643,8 +643,8 @@ module Ammocraft
 
 		recipe Make 5.56 Round
 		{
-			556Bullets_casing,
-			556Bullets_tip,
+			556Bullets_casing/223Bullets_casing,
+			556Bullets_tip/223Bullets_tip,
 			GunPowder=5,
 			keep Reloadingpress,
 

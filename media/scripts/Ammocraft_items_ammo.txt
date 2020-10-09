@@ -443,7 +443,7 @@ module Ammocraft
 		Icon	=	223_Casing,
     MetalValue = 10,
 		StaticModel = RifleBullet_Casing,
-		Tooltip = Tooltip_Casing,
+		Tooltip = Tooltip_223_556Casing,
 	}
 	item 223Bullets_casing_spent
 	{
@@ -486,7 +486,7 @@ module Ammocraft
 		Icon	=	308_Casing,
     MetalValue = 10,
 		StaticModel = RifleBullet_Casing,
-		Tooltip = Tooltip_Casing,
+		Tooltip = Tooltip_556_223Casing,
 	}
 	item 556Bullets_casing_spent
 	{
