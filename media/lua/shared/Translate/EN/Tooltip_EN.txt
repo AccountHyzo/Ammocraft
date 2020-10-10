@@ -17,8 +17,8 @@ Tooltip_EN = {
 	Tooltip_Casing = "Used to craft a round of ammo.",
   Tooltip_CasingSpent = "Needs a new primer.",
   Tooltip_CasingEmpty = "Needs a primer.",
-  Tooltip_223_556Casing = "Interchangeable with 5.56x45mm.",
-  Tooltip_556_223Casing = "Interchangeable with .223 Remington.",
+  Tooltip_223_556 = "Interchangeable with 5.56x45mm.",
+  Tooltip_556_223 = "Interchangeable with .223 Remington.",
   /*Primers*/
   Tooltip_SP_Primer = "Can be used with 9x19mm Parabellum or .38 Special Casings.",
   Tooltip_LP_Primer = "Can be used with .45 ACP or .44 Magnum Casings.",
