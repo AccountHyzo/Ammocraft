@@ -891,6 +891,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             "Ammocraft.Bullets9mm_casing", 5,
             "Ammocraft.Bullets45_casing", 5,
             "Ammocraft.Bullets44_casing", 5,
@@ -912,6 +913,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             }
         },
     },
@@ -928,6 +930,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             "Ammocraft.GunnutBible", 0.5,
             }
         }
@@ -961,6 +964,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             }
         },
     },
@@ -985,6 +989,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             }
         },
     },
@@ -999,6 +1004,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             },
         },
 
@@ -1010,6 +1016,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             },
         },
 
@@ -1029,6 +1036,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             }
         },
     },
@@ -1064,6 +1072,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 1,
             "Ammocraft.GunnutMonthly4", 1,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             },
         },
 
@@ -1136,6 +1145,7 @@ local distributionTable = {
             "Ammocraft.GunnutMonthly3", 2,
             "Ammocraft.GunnutMonthly4", 2,
             "Ammocraft.GunnutMonthly5", 0.5,
+            "Ammocraft.GunnutMonthly6", 0.5,
             },
         },
 
@@ -2757,7 +2767,10 @@ local distributionTable = {
     },
 }
 
-table.insert(Distributions, distributionTable);
+table.insert(Distributions, 1, distributionTable);
+
+--for mod compat:
+SuburbsDistributions = distributionTable;
 
 --*******All Items***************--
 --"Ammocraft.Reloadingpress"

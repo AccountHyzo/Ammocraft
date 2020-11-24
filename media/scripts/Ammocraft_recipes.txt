@@ -195,8 +195,7 @@ module Ammocraft
 			Result:ShotgunShells_tip=50,
 			Sound:PutItemInBag,
 			Time:30.0,
-			Prop1:ShotgunShell,
-			Prop2:Ammobox,
+			OnCreate:recipe_Open_Jar,
 		}
 
 		recipe Open Small Pistol Primer  Box
@@ -251,7 +250,7 @@ module Ammocraft
 			Result:GunPowder=10,
 			Sound:PutItemInBag,
 			Time:30.0,
-			OnCreate:recipe_Open_Jar_of_Gunpowder,
+			OnCreate:recipe_Open_Jar,
 		}
 
 		recipe Put Gunpowder in Jar
@@ -262,6 +261,18 @@ module Ammocraft
 
 			CanBeDoneFromFloor:false,
 			Result:GunpowderJar=1,
+			Sound:PutItemInBag,
+			Time:50.0,
+		}
+
+		recipe Put Buckshot in Jar
+		{
+			ShotgunShells_tip=100,
+			EmptyJar,
+			JarLid,
+
+			CanBeDoneFromFloor:false,
+			Result:ShotgunShells_tipbox=1,
 			Sound:PutItemInBag,
 			Time:50.0,
 		}
@@ -852,7 +863,7 @@ module Ammocraft
 	{
 	Lead,
 	BlowTorch=1,
-	keep 44BulletsMold,
+	keep 38BulletsMold,
 	keep Saucepan/GridlePan/Pan/RoastingPan/BakingPan,
 
 	CanBeDoneFromFloor:true,
