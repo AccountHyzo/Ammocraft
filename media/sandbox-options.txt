@@ -1,0 +1,7 @@
+VERSION = 1,
+
+option Ammocraft.CasingsGround
+{
+	type = boolean, default = true,
+	page = Ammocraft, translation = Ammocraft_CasingsGround,
+}

@@ -1,0 +1,70 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_ReloadingPress
+        {
+            LuaWindowClass      = ISEntityWindow,
+            DisplayName         = Reloadpress,
+            Icon                = Item_Reloadingpress,
+        }
+    }
+
+    entity ReloadingPress
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_ReloadingPress,
+            uiEnabled       = true,
+        }
+
+        component CraftBench
+        {
+           Recipes         = ReloadingPress,
+        }
+
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = industry_02_269,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = industry_02_268,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = industry_02_270,
+                }
+            }
+            face W
+            {
+                layer
+                {
+                    row = industry_02_271,
+                }
+            }
+        }
+
+        component CraftRecipe
+        {
+            time          = 50,
+            category      = Reloading,
+            ToolTip       = Tooltip_craft_reloadpressDesc,
+            inputs
+            {
+                item 1 [Base.Reloadpress] flags[Prop1],
+            }
+        }
+    }
+}

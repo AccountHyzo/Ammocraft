@@ -1,16 +1,16 @@
-require "ISBaseObject"
-
-function spawnCasing(playerObj, weapon)
-	if not playerObj or playerObj:isDead() then return end;
-	if not weapon then return end;
-	if not weapon:isRanged() then return end;
-
-	local gun = weapon:getType();
-	local gunAmmo, replaced = string.gsub(weapon:getAmmoType(), "Base.", "")
-
-	if weapon and weapon:isRanged() then
-		playerObj:getCurrentSquare():AddWorldInventoryItem("Ammocraft." .. gunAmmo .. "_casing_spent", 0.0, 0.0, 0.0);
+function ISReloadWeaponAction:ejectSpentRounds()
+	if self.gun:getSpentRoundCount() > 0 then
+		for i = 0, self.gun:getSpentRoundCount() - 1, 1 do
+			ejectCasing(self.character, self.gun)
+		end
+		self.gun:setSpentRoundCount(0)
+	elseif self.gun:isSpentRoundChambered() then
+		ejectCasing(self.character, self.gun)
+		self.gun:setSpentRoundChambered(false)
+	else
+		return
+	end
+	if self.gun:getShellFallSound() then
+		self.character:getEmitter():playSound(self.gun:getShellFallSound())
 	end
 end
-
-Events.OnPlayerAttackFinished.Add(spawnCasing);

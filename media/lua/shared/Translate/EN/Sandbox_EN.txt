@@ -1,0 +1,5 @@
+Sandbox_EN = {
+	Sandbox_Ammocraft = "Ammocraft B42",
+	Sandbox_Ammocraft_CasingsGround = "Ground casings",
+	Sandbox_Ammocraft_CasingsGround_tooltip = "Whether casings fall to the floor or end up in the players inventory.",
+}
