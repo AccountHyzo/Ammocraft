@@ -11,7 +11,7 @@ Tooltip_EN = {
 	Tooltip_BoxLPPrimers = "100 Primers for .45 ACP or .44 Magnum rounds.",
 	Tooltip_BoxRPrimers = "100 Primers for 5.56x45mm, .223 Remington or .308 Winchester rounds.",
 	Tooltip_BoxSGPrimers = "100 Primers for Shotgun Shells.",
-	Tooltip_GunpowderJar = "The best gunpowder in the world!",
+	Tooltip_GunpowderJar = "Jar of Gunpowder",
 	/*Casings*/
 	Tooltip_Casing = "Used to craft a round of ammo.",
 	Tooltip_CasingSpent = "Needs a new primer.",

@@ -13,7 +13,7 @@ module Base
 		Tags = InHandCraft;CanBeDoneInDark,
 		inputs
 		{
-			item 1 [Base.Bullets9mm_casingbox;Base.Bullets45_casingbox;Base.Bullets44_casingbox;Base.Bullets38_casingbox;Base.308Bullets_casingbox;Base.223Bullets_casingbox;762x39Bullets_casingbox;Base.ShotgunShells_casingbox;Bullets10mm_casingbox;Base.Bullets357_casingbox;Base.Bullets22_casingbox] mappers[ammoTypes],
+			item 1 [Base.Bullets9mm_casingbox;Base.Bullets45_casingbox;Base.Bullets44_casingbox;Base.Bullets38_casingbox;Base.308Bullets_casingbox;Base.223Bullets_casingbox;Base.ShotgunShells_casingbox] mappers[ammoTypes],
 		}
 		outputs
 		{
@@ -27,11 +27,7 @@ module Base
 			Base.Bullets38_casing = Base.Bullets38_casingbox,
 			Base.308Bullets_casing = Base.308Bullets_casingbox,
 			Base.223Bullets_casing = Base.223Bullets_casingbox,
-			Base.762x39Bullets_casing = Base.762x39Bullets_casingbox,
 			Base.ShotgunShells_casing = Base.ShotgunShells_casingbox,
-			Base.Bullets10mm_casing = Base.Bullets10mm_casingbox,
-			Base.Bullets357_casing = Base.Bullets357_casingbox,
-			Base.Bullets22_casing = Base.Bullets22_casingbox,
 		}
 	}
 
@@ -43,7 +39,7 @@ module Base
 		Tags = InHandCraft;CanBeDoneInDark,
 		inputs
 		{
-			item 1 [Base.Bullets9mm_tipbox;Base.Bullets45_tipbox;Base.Bullets44_tipbox;Base.Bullets38_tipbox;Base.308Bullets_tipbox;Base.223Bullets_tipbox;Base.ShotgunShells_tipbox;Bullets10mm_tipbox;Base.Bullets3006_tipbox;Base.Bullets22_tipbox] mappers[ammoTypes],
+			item 1 [Base.Bullets9mm_tipbox;Base.Bullets45_tipbox;Base.Bullets44_tipbox;Base.Bullets38_tipbox;Base.308Bullets_tipbox;Base.223Bullets_tipbox;Base.ShotgunShells_tipbox] mappers[ammoTypes],
 		}
 		outputs
 		{
@@ -57,10 +53,6 @@ module Base
 			Base.Bullets38_tip = Base.Bullets38_tipbox,
 			Base.308Bullets_tip = Base.308Bullets_tipbox,
 			Base.223Bullets_tip = Base.223Bullets_tipbox,
-			Base.ShotgunShells_tip = Base.ShotgunShells_tipbox,
-			Base.Bullets10mm_tip = Base.Bullets10mm_tipbox,
-			Base.Bullets3006_tip = Base.Bullets3006_tipbox,
-			Base.Bullets22_tip = Base.Bullets22_tipbox,
 		}
 	}
 
@@ -113,8 +105,9 @@ module Base
 		Tags = InHandCraft;CanBeDoneInDark,
 		inputs
 		{
+			item 1 [Base.Funnel] mode:keep flags[Prop1],
 			item 100 [Base.ShotgunShells_tip],
-			item 1 [Base.EmptyJar],
+			item 1 [Base.EmptyJar] flags[Prop2],
 			item 1 [Base.JarLid],
 		}
 		outputs

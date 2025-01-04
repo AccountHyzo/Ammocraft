@@ -89,76 +89,6 @@ module Base
 		WorldStaticModel = HandGunAmmoBox,
 	}
 
-	item Bullets357_casingbox
-	{
-		DisplayName = Box of 357 Casings,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.5,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item 762x39Bullets_casingbox
-	{
-		DisplayName = Box of 762x39mm Casings,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.8,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item Bullets22_casingbox
-	{
-		DisplayName = Box of 22 Casings,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.3,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item Bullets3006_casingbox
-	{
-		DisplayName = Box of 3006 Casings,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.3,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item Bullets10mm_casingbox
-	{
-		DisplayName = Box of 10mm Casings,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.3,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
 	item ShotgunShells_casingbox
 	{
 		DisplayName = Box of Shotgun Shells,
@@ -257,48 +187,6 @@ module Base
 		WorldStaticModel = HandGunAmmoBox,
 	}
 
-	item Bullets22_tipbox
-	{
-		DisplayName = Box of 22 Tips,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.1,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item Bullets3006_tipbox
-	{
-		DisplayName = Box of 3006 Tips,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.3,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
-	item Bullets10mm_tipbox
-	{
-		DisplayName = Box of 10mm Tips,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.2,
-		Icon = HandgunAmmoBox,
-		MetalValue = 30,
-		PlaceMultipleSound = BoxOfRoundsPlaceAll,
-		PlaceOneSound = BoxOfRoundsPlaceOne,
-		StaticModel = HandGunAmmoBox,
-		WorldStaticModel = HandGunAmmoBox,
-	}
-
 	item ShotgunShells_tipbox
 	{
 		DisplayName = Jar of Buckshot,
@@ -389,7 +277,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -402,7 +290,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -415,7 +303,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -428,7 +316,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Pistol_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -441,7 +329,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -454,7 +342,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -467,7 +355,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -480,7 +368,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Pistol_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -493,7 +381,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -506,7 +394,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -519,7 +407,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -532,46 +420,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets357_casing
-	{
-		DisplayName = 357 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets357_casing_spent
-	{
-		DisplayName = 357 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets357_casing_spent_noprimer
-	{
-		DisplayName = 357 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -584,7 +433,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Silver_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -597,7 +446,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Silver_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -610,7 +459,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Pistol_Silver_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -623,7 +472,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Pistol_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -636,7 +485,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -649,7 +498,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -662,7 +511,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -675,50 +524,11 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Rifle_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
 		WorldStaticModel = Bullet_Casing,
-	}
-
-	item 762x39Bullets_casing
-	{
-		DisplayName = 762x39 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet_Casing,
-	}
-
-	item 762x39Bullets_casing_spent
-	{
-		DisplayName = 762x39 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet_Casing,
-	}
-
-	item 762x39Bullets_casing_spent_noprimer
-	{
-		DisplayName = 762x39 Casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet_Casing,
 	}
 
 	item 223Bullets_casing
@@ -727,7 +537,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -740,7 +550,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -753,7 +563,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Rifle_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -766,7 +576,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Rifle_Bullet,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -779,7 +589,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Shotgun_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -792,7 +602,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Shotgun_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -805,7 +615,7 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Casing,
+		Icon = Shotgun_Casing,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
@@ -818,167 +628,11 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.01,
-		Icon = 9mm_Bullet,
+		Icon = Gunpowder,
 		AlwaysWelcomeGift = TRUE,
 		Count = 5,
 		MetalValue = 1,
 		WorldStaticModel = Buckshot_Pile,
-	}
-
-	item Bullets10mm_casing
-	{
-		DisplayName = 10mm casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets10mm_casing_spent
-	{
-		DisplayName = 10mm casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets10mm_casing_spent_noprimer
-	{
-		DisplayName = 10mm casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets10mm_tip
-	{
-		DisplayName = 10mm bullet,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Bullet,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets22_casing
-	{
-		DisplayName = 22 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets22_casing_spent
-	{
-		DisplayName = 22 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets22_casing_spent_noprimer
-	{
-		DisplayName = 22 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets22_tip
-	{
-		DisplayName = 22 bullet,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Bullet,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
-	}
-
-	item Bullets3006_casing
-	{
-		DisplayName = 3006 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet,
-	}
-
-	item Bullets3006_casing_spent
-	{
-		DisplayName = 3006 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet,
-	}
-
-	item Bullets3006_casing_spent_noprimer
-	{
-		DisplayName = 3006 casing,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Casing,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = RifleBullet,
-	}
-
-	item Bullets3006_tip
-	{
-		DisplayName = 3006 bullet,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.01,
-		Icon = 9mm_Bullet,
-		AlwaysWelcomeGift = TRUE,
-		Count = 5,
-		MetalValue = 1,
-		WorldStaticModel = Bullet_Casing,
 	}
 
 	/*******************************************************/

@@ -17,7 +17,7 @@ module Base
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
 				item 1 [SP_Primers],
-				item 1 [Bullets9mm_casing_spent_noprimer;Bullets38_casing_spent_noprimer;Bullets22_casing_spent_noprimer] mappers[ammoTypes],
+				item 1 [Bullets9mm_casing_spent_noprimer;Bullets38_casing_spent_noprimer] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -27,7 +27,6 @@ module Base
 			{
 				Base.Bullets9mm_casing = Base.Bullets9mm_casing_spent_noprimer,
 				Base.Bullets38_casing = Base.Bullets38_casing_spent_noprimer,
-				Base.Bullets22_casing = Base.Bullets22_casing_spent_noprimer,
 			}
 		}
 
@@ -41,7 +40,7 @@ module Base
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
 				item 1 [LP_Primers],
-				item 1 [Bullets45_casing_spent_noprimer;Bullets44_casing_spent_noprimer;Bullets10mm_casing_spent_noprimer] mappers[ammoTypes],
+				item 1 [Bullets45_casing_spent_noprimer;Bullets44_casing_spent_noprimer] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -51,7 +50,6 @@ module Base
 			{
 				Base.Bullets45_casing = Base.Bullets45_casing_spent_noprimer,
 				Base.Bullets44_casing = Base.Bullets44_casing_spent_noprimer,
-				Base.Bullets10mm_casing = Base.Bullets10mm_casing_spent_noprimer,
 			}
 		}
 
@@ -65,7 +63,7 @@ module Base
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
 				item 1 [R_Primers],
-				item 1 [308Bullets_casing_spent_noprimer;223Bullets_casing_spent_noprimer;762x39Bullets_casing_spent_noprimer] mappers[ammoTypes],
+				item 1 [308Bullets_casing_spent_noprimer;223Bullets_casing_spent_noprimer] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -75,7 +73,6 @@ module Base
 			{
 				Base.308Bullets_casing = Base.308Bullets_casing_spent_noprimer,
 				Base.223Bullets_casing = Base.223Bullets_casing_spent_noprimer,
-				Base.762x39Bullets_casing = Base.762x39Bullets_casing_spent_noprimer,
 			}
 		}
 
@@ -97,7 +94,7 @@ module Base
 			}
 		}
 
-		/*craftRecipe RemovePrimerSP
+		craftRecipe RemovePrimerSP
 		{
 			timedAction = Making,
 			Time = 15,
@@ -106,7 +103,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [Bullets9mm_casing;Bullets38_casing;Bullets22_casing] mappers[ammoTypes],
+				item 1 [Bullets9mm_casing;Bullets38_casing] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -117,7 +114,6 @@ module Base
 			{
 				Base.Bullets9mm_casing_spent_noprimer = Base.Bullets9mm_casing,
 				Base.Bullets38_casing_spent_noprimer = Base.Bullets38_casing,
-				Base.Bullets22_casing_spent_noprimer = Base.Bullets22_casing,
 			}
 		}
 
@@ -130,7 +126,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [Bullets9mm_casing_spent;Bullets38_casing_spent;Bullets22_casing_spent] mappers[ammoTypes],
+				item 1 [Bullets9mm_casing_spent;Bullets38_casing_spent] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -141,7 +137,6 @@ module Base
 			{
 				Base.Bullets9mm_casing_spent_noprimer = Base.Bullets9mm_casing_spent,
 				Base.Bullets38_casing_spent_noprimer = Base.Bullets38_casing_spent,
-				Base.Bullets22_casing_spent_noprimer = Base.Bullets22_casing_spent,
 			}
 		}
 
@@ -154,7 +149,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [Bullets45_casing;Bullets44_casing;Bullets10mm_casing] mappers[ammoTypes],
+				item 1 [Bullets45_casing;Bullets44_casing] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -165,7 +160,6 @@ module Base
 			{
 				Base.Bullets45_casing_spent_noprimer = Base.Bullets45_casing,
 				Base.Bullets44_casing_spent_noprimer = Base.Bullets44_casing,
-				Base.Bullets10mm_casing_spent_noprimer = Base.Bullets10mm_casing,
 			}
 		}
 
@@ -178,7 +172,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [Bullets45_casing_spent;Bullets44_casing_spent;Bullets10mm_casing_spent] mappers[ammoTypes],
+				item 1 [Bullets45_casing_spent;Bullets44_casing_spent] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -189,7 +183,6 @@ module Base
 			{
 				Base.Bullets45_casing_spent_noprimer = Base.Bullets45_casing_spent,
 				Base.Bullets44_casing_spent_noprimer = Base.Bullets44_casing_spent,
-				Base.Bullets10mm_casing_spent_noprimer = Base.Bullets10mm_casing_spent,
 			}
 		}
 
@@ -202,7 +195,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [308Bullets_casing;223Bullets_casing;762x39Bullets_casing] mappers[ammoTypes],
+				item 1 [308Bullets_casing;223Bullets_casing] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -213,7 +206,6 @@ module Base
 			{
 				Base.308Bullets_casing_spent_noprimer = Base.308Bullets_casing,
 				Base.223Bullets_casing_spent_noprimer = Base.223Bullets_casing,
-				Base.762x39Bullets_casing_spent_noprimer = Base.762x39Bullets_casing,
 			}
 		}
 
@@ -226,7 +218,7 @@ module Base
 			inputs
 			{
 				item 1 tags[Pliers;ViseGrips] mode:keep,
-				item 1 [308Bullets_casing_spent;223Bullets_casing_spent;762x39Bullets_casing_spent] mappers[ammoTypes],
+				item 1 [308Bullets_casing_spent;223Bullets_casing_spent] mappers[ammoTypes],
 			}
 			outputs
 			{
@@ -237,7 +229,6 @@ module Base
 			{
 				Base.308Bullets_casing_spent_noprimer = Base.308Bullets_casing_spent,
 				Base.223Bullets_casing_spent_noprimer = Base.223Bullets_casing_spent,
-				Base.762x39Bullets_casing_spent_noprimer = Base.762x39Bullets_casing_spent,
 			}
 		}
 
@@ -255,7 +246,7 @@ module Base
 			outputs
 			{
 				item 1 SG_Primers,
-				item 1 [Base.ShotgunShells_casing_spent_noprimer],
+				item 1 Base.ShotgunShells_casing_spent_noprimer,
 			}
 		}
 
@@ -273,9 +264,9 @@ module Base
 			outputs
 			{
 				item 1 SG_Primers_Spent,
-				item 1 [Base.ShotgunShells_casing_spent_noprimer],
+				item 1 Base.ShotgunShells_casing_spent_noprimer,
 			}
-		}*/
+		}
 
 		/*	Reloading		*/
 

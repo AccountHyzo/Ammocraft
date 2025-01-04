@@ -5,58 +5,18 @@ module Base
 		/*                 Assembling Rounds                   */
 		/*******************************************************/
 
-		craftRecipe Make_22_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [Bullets22_casing],
-				item 1 [Bullets22_tip],
-				item 1 [GunPowder],
-			}
-			outputs
-			{
-				item 1 Bullets22,
-			}
-		}
-
-		/*craftRecipe Forge_Steel_Sheet
-		{
-				time        = 10,
-				SkillRequired = Blacksmith:4,
-				needTobeLearn = true,
-				timedAction = Making,
-				xpAward = Blacksmith:45,
-				AutoLearn = Blacksmith:6,
-				tags = Forge,
-				category = Blacksmithing,
-				inputs
-				{
-						item 1 tags[Charcoal],
-						item 1 [Base.IronBlock],
-						item 1 tags[BallPeenHammer] mode:keep flags[Prop1;MayDegradeLight],
-						item 1 tags[Tongs] mode:keep flags[Prop2;MayDegradeLight],
-						item 1 tags[MetalworkingChisel] mode:keep flags[MayDegradeLight],
-				}
-				outputs
-				{
-						item 1 Base.SheetMetal,
-				}
-		}*/
-
 		craftRecipe Make_9mm_Round
 		{
 			timedAction = Making,
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:3,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [Bullets9mm_casing],
 				item 1 [Bullets9mm_tip],
 				item 2 [GunPowder],
@@ -67,34 +27,18 @@ module Base
 			}
 		}
 
-		craftRecipe Make_10mm_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [Bullets10mm_casing],
-				item 1 [Bullets10mm_tip],
-				item 2 [GunPowder],
-			}
-			outputs
-			{
-				item 1 Bullets10mm,
-			}
-		}
-
 		craftRecipe Make_45_Round
 		{
 			timedAction = Making,
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:3,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [Bullets45_casing],
 				item 1 [Bullets45_tip],
 				item 3 [GunPowder],
@@ -111,9 +55,12 @@ module Base
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:4,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [Bullets44_casing],
 				item 1 [Bullets44_tip],
 				item 3 [GunPowder],
@@ -124,34 +71,18 @@ module Base
 			}
 		}
 
-		craftRecipe Make_4440_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [Bullets44_casing],
-				item 1 [Bullets44_tip],
-				item 3 [GunPowder],
-			}
-			outputs
-			{
-				item 1 Bullets4440,
-			}
-		}
-
 		craftRecipe Make_38_Round
 		{
 			timedAction = Making,
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:3,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [Bullets38_casing],
 				item 1 [Bullets38_tip],
 				item 3 [GunPowder],
@@ -162,34 +93,18 @@ module Base
 			}
 		}
 
-		craftRecipe Make_357_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [Bullets357_casing],
-				item 1 [Bullets38_tip],
-				item 3 [GunPowder],
-			}
-			outputs
-			{
-				item 1 Bullets357,
-			}
-		}
-
 		craftRecipe Make_308_Round
 		{
 			timedAction = Making,
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:6,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [308Bullets_casing],
 				item 1 [308Bullets_tip],
 				item 3 [GunPowder],
@@ -206,9 +121,12 @@ module Base
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:5,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [223Bullets_casing],
 				item 1 [223Bullets_tip],
 				item 3 [GunPowder],
@@ -225,9 +143,12 @@ module Base
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:5,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [223Bullets_casing],
 				item 1 [223Bullets_tip],
 				item 3 [GunPowder],
@@ -244,9 +165,12 @@ module Base
 			Time = 25,
 			category = Reloading,
 			NeedToBeLearn = True,
+			AutoLearn = Reloading:1,
+			xpAward = Reloading:5,
 			tags = ReloadingPress,
 			inputs
 			{
+				item 1 [Funnel] mode:keep flags[Prop1],
 				item 1 [ShotgunShells_casing],
 				item 1 [ShotgunShells_tip],
 				item 3 [GunPowder],
@@ -257,67 +181,9 @@ module Base
 			}
 		}
 
-		craftRecipe Make_762_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [308Bullets_casing],
-				item 1 [308Bullets_tip],
-				item 3 [GunPowder],
-			}
-			outputs
-			{
-				item 1 762x51Bullets,
-			}
-		}
-
-		craftRecipe Make_762x39_Round
-		{
-			timedAction = Making,
-			Time = 25,
-			category = Reloading,
-			NeedToBeLearn = True,
-			tags = ReloadingPress,
-			inputs
-			{
-				item 1 [762x39Bullets_casing],
-				item 1 [308Bullets_tip],
-				item 3 [GunPowder],
-			}
-			outputs
-			{
-				item 1 762x39Bullets,
-			}
-		}
-
 	/*******************************************************/
 	/*                    Dismantling                      */
 	/*******************************************************/
-
-	craftRecipe Dismantle_22_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [Bullets22],
-		}
-		outputs
-		{
-			item 1 Bullets22_tip,
-			item 1 Bullets22_casing,
-			item 2 GunPowder,
-		}
-	}
 
 	craftRecipe Dismantle_9mm_Round
 	{
@@ -325,6 +191,9 @@ module Base
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -339,32 +208,15 @@ module Base
 		}
 	}
 
-	craftRecipe Dismantle_10mm_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [Bullets10mm],
-		}
-		outputs
-		{
-			item 1 Bullets10mm_tip,
-			item 1 Bullets10mm_casing,
-			item 2 GunPowder,
-		}
-	}
-
 	craftRecipe Dismantle_45_Round
 	{
 		timedAction = Making,
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -385,6 +237,9 @@ module Base
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -405,6 +260,9 @@ module Base
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -419,32 +277,15 @@ module Base
 		}
 	}
 
-	craftRecipe Dismantle_357_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [Bullets357],
-		}
-		outputs
-		{
-			item 1 Bullets38_tip,
-			item 1 Bullets357_casing,
-			item 2 GunPowder,
-		}
-	}
-
 	craftRecipe Dismantle_223_Round
 	{
 		timedAction = Making,
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -465,6 +306,9 @@ module Base
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -479,52 +323,15 @@ module Base
 		}
 	}
 
-	craftRecipe Dismantle_762_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [762x51Bullets],
-		}
-		outputs
-		{
-			item 1 308Bullets_tip,
-			item 1 308Bullets_casing,
-			item 2 GunPowder,
-		}
-	}
-
-	craftRecipe Dismantle_762x39_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [762x39Bullets],
-		}
-		outputs
-		{
-			item 1 308Bullets_tip,
-			item 1 762x39Bullets_casing,
-			item 2 GunPowder,
-		}
-	}
-
 	craftRecipe Dismantle_556_Round
 	{
 		timedAction = Making,
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{
@@ -539,52 +346,15 @@ module Base
 		}
 	}
 
-	craftRecipe Dismantle_3006_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [Bullets3006],
-		}
-		outputs
-		{
-			item 1 Bullets3006_tip,
-			item 1 Bullets3006_casing,
-			item 2 GunPowder,
-		}
-	}
-
-	craftRecipe Dismantle_4440_Round
-	{
-		timedAction = Making,
-		Time = 25,
-		category = Reloading,
-		NeedToBeLearn = True,
-		tags = AnySurfaceCraft,
-		inputs
-		{
-			item 1 tags[Pliers] mode:keep flags[Prop1],
-			item 1 [Bullets4440],
-		}
-		outputs
-		{
-			item 1 Bullets44_tip,
-			item 1 Bullets44_casing,
-			item 2 GunPowder,
-		}
-	}
-
 	craftRecipe Dismantle_Shotgun_Shell
 	{
 		timedAction = Making,
 		Time = 25,
 		category = Reloading,
 		NeedToBeLearn = True,
+		AutoLearn = Reloading:2,
+		xpAward = Reloading:1,
+		OnTest = onAmmocraft_OnTest,
 		tags = AnySurfaceCraft,
 		inputs
 		{

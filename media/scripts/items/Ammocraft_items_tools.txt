@@ -9,7 +9,7 @@ module Base
 		DisplayCategory = Tool,
 		Type = Normal,
 		Weight = 1,
-		Icon = Reloadingpress,
+		Icon = Reloadpress_Workstation,
 		Tooltip = Tooltip_Reloader,
 	}
 
@@ -17,37 +17,15 @@ module Base
 	/*                       Molds                       */
 	/*****************************************************/
 
-	item Bullets22Mold
-	{
-		DisplayName = 22 Bullet Mold,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.5,
-		Icon = BulletMold,
-		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
-	}
-
-	item 10mmBulletsMold
-	{
-		DisplayName = 10mm Bullet Mold,
-		DisplayCategory = Ammo,
-		Type = Normal,
-		Weight = 0.5,
-		Icon = BulletMold,
-		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
-	}
-
 	item 9mmBulletsMold
 	{
 		DisplayName = 9mm Bullet Mold,
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item ShotgunShellsMold
@@ -56,9 +34,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item 308BulletsMold
@@ -67,9 +45,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item 223BulletsMold
@@ -78,9 +56,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item 45BulletsMold
@@ -89,9 +67,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item 44BulletsMold
@@ -100,9 +78,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 	item 38BulletsMold
@@ -111,9 +89,9 @@ module Base
 		DisplayCategory = Ammo,
 		Type = Normal,
 		Weight = 0.5,
-		Icon = BulletMold,
+		Icon = Ammocraft_Mold,
 		MetalValue = 15,
-		WorldStaticModel = ShotGunShellsMold_Ground,
+		WorldStaticModel = Ammocraft_BulletMold,
 	}
 
 }

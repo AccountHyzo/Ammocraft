@@ -20,7 +20,7 @@ module Base
 					item 1 tags[SmeltableIronMedium],
 					item 1 [Base.CeramicCrucible] mode:keep,
 					item 1 tags[Tongs] mode:keep flags[Prop2;MayDegradeLight],
-					item 1 [Base.9mmBulletsMold;Base.45BulletsMold;Base.44BulletsMold;Base.38BulletsMold;Base.223BulletsMold;308BulletsMold;Base.ShotgunShellsMold;10mmBulletsMold;Base.Bullets22Mold] mappers[ammoTypes],
+					item 1 [Base.9mmBulletsMold;Base.45BulletsMold;Base.44BulletsMold;Base.38BulletsMold;Base.223BulletsMold;308BulletsMold;Base.ShotgunShellsMold] mappers[ammoTypes],
 				}
 				outputs
 				{
@@ -35,32 +35,12 @@ module Base
 					Base.223Bullets_tip = Base.223BulletsMold,
 					Base.308Bullets_tip = Base.308BulletsMold,
 					Base.ShotgunShells_tip = Base.ShotgunShellsMold,
-					Base.Bullets10mm_tip = Base.10mmBulletsMold,
-					Base.Bullets22_tip = Base.Bullets22Mold,
 			}
 	}
 
 	/*******************************************************/
 	/*                      Survival                       */
 	/*******************************************************/
-
-	/*craftRecipe ammocraftRecipe
-	{
-		timedAction = Making,
-		Time = 100,
-		category = Ammunition,
-		NeedToBeLearn = True,
-		Tags = InHandCraft;CanBeDoneInDark,
-		inputs
-		{
-			item 1 [Pliers] mode:keep flags[MayDegradeLight],
-			item 1 [ShotgunShells],
-		}
-		outputs
-		{
-			item 1 Base.GunPowder,
-		}
-	}*/
 
 	craftRecipe Create_Homemade_Gunpowder
 	{

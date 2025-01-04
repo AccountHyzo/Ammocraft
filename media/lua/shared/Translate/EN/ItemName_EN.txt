@@ -1,24 +1,4 @@
 ItemName_EN = {
-		ItemName_Base.223Box = "Box of .223 Remington Rounds",
-		ItemName_Base.308Box = "Box of .308 Winchester Rounds",
-		ItemName_Base.556Box = "Box of 5.56x45mm Rounds",
-		ItemName_Base.Bullets38Box = "Box of .38 Special Rounds",
-		ItemName_Base.Bullets44Box = "Box of .44 Magnum Rounds",
-		ItemName_Base.Bullets45Box = "Box of .45 ACP Rounds",
-		ItemName_Base.Bullets9mmBox = "Box of 9x19mm Parabellum Rounds",
-		ItemName_Base.ShotgunShellsBox = "Box of Shotgun Shells",
-
-		ItemName_Base.223Bullets = ".223 Remington Round",
-		ItemName_Base.308Bullets = ".308 Winchester Round",
-		ItemName_Base.556Bullets = "5.56x45mm Round",
-		ItemName_Base.Bullets38 = ".38 Special Round",
-		ItemName_Base.Bullets44 = ".44 Magnum Round",
-		ItemName_Base.Bullets45 = ".45 ACP Round",
-		ItemName_Base.Bullets9mm = "9x19mm Parabellum Round",
-		ItemName_Base.ShotgunShells = "Shotgun Shells",
-
-		ItemName_Base.Bullets22Mold = ".22 Bullet Mold",
-		ItemName_Base.10mmBulletsMold = "10mm Bullet Mold",
 		ItemName_Base.9mmBulletsMold = "9mm Bullet Mold",
 		ItemName_Base.45BulletsMold = ".45 Bullet Mold",
 		ItemName_Base.44BulletsMold = ".44 Bullet Mold",
@@ -34,6 +14,7 @@ ItemName_EN = {
 		ItemName_Base.223Bullets_casingbox = "Box of .223 Remington Casings",
 		ItemName_Base.308Bullets_casingbox = "Box of .308 Winchester Casings",
 		ItemName_Base.ShotgunShells_casingbox = "Box of Empty Shotgun Shells",
+
 		ItemName_Base.Bullets9mm_tipbox = "Box of 9x19mm Parabellum Bullet Tips",
 		ItemName_Base.Bullets38_tipbox = "Box of .38 Special Bullet Tips",
 		ItemName_Base.Bullets45_tipbox = "Box of .45 ACP Bullet Tips",
@@ -41,11 +22,21 @@ ItemName_EN = {
 		ItemName_Base.223Bullets_tipbox = "Box of .223 Remington Bullet Tips",
 		ItemName_Base.308Bullets_tipbox = "Box of .308 Winchester Bullet Tips",
 		ItemName_Base.ShotgunShells_tipbox = "Jar of Buckshot",
+
 		ItemName_Base.SP_Primers_box = "Box of Small Pistol Primers",
 		ItemName_Base.LP_Primers_box = "Box of Large Pistol Primers",
 		ItemName_Base.R_Primers_box = "Box of Rifle Primers",
 		ItemName_Base.SG_Primers_box = "Box of Shotgun Primers",
+
 		ItemName_Base.GunpowderJar = "Bottle of Gunpowder",
+		
+		ItemName_Base.Bullets9mm_tip = "9x19mm Parabellum Bullet Tip",
+		ItemName_Base.Bullets38_tip = ".38 Special Bullet Tip",
+		ItemName_Base.Bullets45_tip = ".45 ACP Bullet Tip",
+		ItemName_Base.Bullets44_tip = ".44 Magnum Bullet Tip",
+		ItemName_Base.223Bullets_tip = ".223 Remington Bullet Tip",
+		ItemName_Base.308Bullets_tip = ".308 Winchester Bullet Tip",
+		ItemName_Base.ShotgunShells_tip = "Buckshot",
 
 		ItemName_Base.Bullets9mm_casing = "9x19mm Parabellum Casing",
 		ItemName_Base.Bullets38_casing = ".38 Special Casing",
@@ -54,14 +45,6 @@ ItemName_EN = {
 		ItemName_Base.223Bullets_casing = ".223 Remington Casing",
 		ItemName_Base.308Bullets_casing = ".308 Winchester Casing",
 		ItemName_Base.ShotgunShells_casing = "Empty Shotgun Shell",
-
-		ItemName_Base.Bullets9mm_tip = "9x19mm Parabellum Bullet Tip",
-		ItemName_Base.Bullets38_tip = ".38 Special Bullet Tip",
-		ItemName_Base.Bullets45_tip = ".45 ACP Bullet Tip",
-		ItemName_Base.Bullets44_tip = ".44 Magnum Bullet Tip",
-		ItemName_Base.223Bullets_tip = ".223 Remington Bullet Tip",
-		ItemName_Base.308Bullets_tip = ".308 Winchester Bullet Tip",
-		ItemName_Base.ShotgunShells_tip = "Buckshot",
 
 		ItemName_Base.Bullets9mm_casing_spent = "Spent 9x19mm Parabellum Casing",
 		ItemName_Base.Bullets38_casing_spent = "Spent .38 Special Casing",
