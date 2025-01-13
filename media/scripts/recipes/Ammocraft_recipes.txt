@@ -16,15 +16,15 @@ module Base
 			category = Ammunition,
 			inputs
 			{
-					item 1 tags[Charcoal],
-					item 1 tags[SmeltableIronMedium],
-					item 1 [Base.CeramicCrucible] mode:keep,
+					item 1 [Base.CeramicCrucibleSmall] mode:keep,
 					item 1 tags[Tongs] mode:keep flags[Prop2;MayDegradeLight],
-					item 1 [Base.9mmBulletsMold;Base.45BulletsMold;Base.44BulletsMold;Base.38BulletsMold;Base.223BulletsMold;308BulletsMold;Base.ShotgunShellsMold] mappers[ammoTypes],
+					item 1 [Base.9mmBulletsMold;Base.45BulletsMold;Base.44BulletsMold;Base.38BulletsMold;Base.223BulletsMold;308BulletsMold;Base.ShotgunShellsMold] mode:keep mappers[ammoTypes],
+					item 1 tags[Charcoal],
+					item 1 tags[SmeltableIronSmall],
 				}
 				outputs
 				{
-					item 5 mapper:ammoTypes,
+					item 10 mapper:ammoTypes,
 				}
 				itemMapper ammoTypes
 				{

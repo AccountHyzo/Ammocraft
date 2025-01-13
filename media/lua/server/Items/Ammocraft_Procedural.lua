@@ -73,6 +73,28 @@ local myDistTableChemicals = {
 	"CrateFertilizer", 25,
 }
 
+local myDistTableGunpowder = {
+	"LockerArmyBedroom", 1,
+	"CrateBlacksmithing", 1,
+	"GarageFirearms", 2,
+	"StoreShelfMechanics", 1,
+	"GarageTools", 0.1,
+	"CrateTools", 1,
+	"GigamartTools", 0.1,
+	"GarageMetalwork", 0.1,
+	"DrugLabGuns", 1,
+	"DrugLabMoney", 1,
+	"DrugLabOutfit", 2,
+	"DrugLabSupplies", 2,
+	"DrugShackDrugs", 1,
+	"DrugShackMisc", 2,
+	"GunStoreAmmunition", 8,
+	"HuntingLockers", 2,
+	"ArmyStorageGuns", 5,
+	"ArmyStorageAmmunition", 8,
+	"ArmySurplusAmmoBoxes", 5,
+}
+
 for i = 1, #myDistTableBoxes, 2 do
 	table.insert(ProceduralDistributions.list[myDistTableBoxes[i]].items, "Base.Bullets9mm_casingbox")
 	table.insert(ProceduralDistributions.list[myDistTableBoxes[i]].items, myDistTableBoxes[i+1])
@@ -162,6 +184,13 @@ for i = 1, #myDistTableChemicals, 2 do
 	table.insert(ProceduralDistributions.list[myDistTableChemicals[i]].items, myDistTableChemicals[i+1])
 	table.insert(ProceduralDistributions.list[myDistTableChemicals[i]].items, "Base.Saltpeter")
 	table.insert(ProceduralDistributions.list[myDistTableChemicals[i]].items, myDistTableChemicals[i+1])
+end
+
+for i = 1, #myDistTableGunpowder, 2 do
+	table.insert(ProceduralDistributions.list[myDistTableGunpowder[i]].items, "Base.GunpowderJar")
+	table.insert(ProceduralDistributions.list[myDistTableGunpowder[i]].items, myDistTableGunpowder[i+1])
+	table.insert(ProceduralDistributions.list[myDistTableGunpowder[i]].items, "Base.GunpowderJar")
+	table.insert(ProceduralDistributions.list[myDistTableGunpowder[i]].items, myDistTableGunpowder[i+1])
 end
 
 	table.insert(ProceduralDistributions.list["GarageTools"].items, "Pliers");

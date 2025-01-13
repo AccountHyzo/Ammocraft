@@ -7,7 +7,7 @@ module Base
 		mesh = tools/Reloadingpress,
 	}
 
-	model Pliers
+	model AmmocraftPliers
 	{
 		mesh = tools/Pliers,
 	}
